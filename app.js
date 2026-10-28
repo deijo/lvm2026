@@ -24,8 +24,9 @@ try {
 function groupByDay(list) {
   const out = new Map();
   for (const x of list) {
-    const k = fDayKey.format(x.start);
-    if (!out.has(k)) out.set(k, { label: cap(fDay.format(x.start)), items: [] });
+    // Matcher utan tid (tillfälligt borttagna ur schemat av arrangören) samlas sist.
+    const k = x.start ? fDayKey.format(x.start) : "~";
+    if (!out.has(k)) out.set(k, { label: x.start ? cap(fDay.format(x.start)) : "Ännu inte schemalagt", items: [] });
     out.get(k).items.push(x);
   }
   return [...out.values()];
@@ -75,7 +76,7 @@ const prettyName = (name, ref) => {
   const mm = /^(Vinn|Förl)\.\s*(\d+)$/.exec(name || "");
   if (!mm) return name;
   const src = byNr.get(mm[2]);
-  if (!src) return name;
+  if (!src || !src.start) return name;
   const who = mm[1] === "Vinn" ? "Vinnare" : "Förlorare";
   const sameDay = ref && fDayKey.format(ref.start) === fDayKey.format(src.start);
   const day = sameDay ? "" : `${fWeekday.format(src.start)} `;
@@ -104,7 +105,7 @@ function scoreHtml(m) {
 function eventHtml(e, nextId) {
   const t = teamOf(e.team);
   const isNext = `${e.kind}-${e.team}-${e.id}` === nextId;
-  const past = e.end < Date.now() && !e.result.live;
+  const past = !!e.end && e.end < Date.now() && !e.result.live;
   const what =
     e.kind === "match"
       ? `<p class="who">mot <strong>${esc(prettyName(e.opponent, e))}</strong></p>${refereeHtml(e)}`
@@ -118,7 +119,7 @@ function eventHtml(e, nextId) {
   }
   return `<li class="event ${e.kind} c-${t.color}${isNext ? " next" : ""}${past ? " past" : ""}">
     <div class="when">
-      <span class="time">${fTime.format(e.start)}</span>
+      <span class="time">${e.start ? fTime.format(e.start) : "–"}</span>
       ${e.court ? `<span class="court"><span class="court-label">Plan</span> ${esc(e.court)}</span>` : ""}
       <span class="hall">${esc(e.hall)}</span>
     </div>
@@ -148,7 +149,7 @@ function playoffTable(list) {
             const nameHtml = (s) => (isHabo(s) ? `<strong>${esc(s.name)}</strong>` : esc(prettyName(s.name, m)));
             const refs = (m.referees || []).length ? refereeHtml(m) : "";
             return `<tr class="${ours ? "ours" : ""}">
-            <td class="po-time">${fTime.format(m.start)}</td>
+            <td class="po-time">${m.start ? fTime.format(m.start) : "–"}</td>
             <td class="po-court">${esc(m.hall)} <b>${esc(m.court)}</b></td>
             <td><span class="po-phase">${esc(phaseLabel(m))}</span>
               <span class="po-teams">${nameHtml(m.home)} – ${nameHtml(m.away)}</span>${scoreHtml(m)}${refs}</td>
@@ -197,7 +198,7 @@ function render() {
   };
   const events = data.events.filter(keep);
   const now = Date.now();
-  const next = events.find((e) => e.end > now);
+  const next = events.find((e) => e.end && e.end > now);
   const nextId = next ? `${next.kind}-${next.team}-${next.id}` : null;
 
   document.getElementById("schedule-title").textContent = team
@@ -248,9 +249,12 @@ function render() {
     poEl.innerHTML = data.categories
       .map((c) => {
         const list = playoffsFor(c);
-        const span = list.length
-          ? `${list.length} matcher, ${fWeekday.format(list[0].start)} ${fTime.format(list[0].start)} till ${fWeekday.format(list.at(-1).start)} ${fTime.format(list.at(-1).start)}`
-          : "inga matcher publicerade än";
+        const timed = list.filter((m) => m.start);
+        const span = timed.length
+          ? `${list.length} matcher, ${fWeekday.format(timed[0].start)} ${fTime.format(timed[0].start)} till ${fWeekday.format(timed.at(-1).start)} ${fTime.format(timed.at(-1).start)}`
+          : list.length
+            ? `${list.length} matcher, tider inte satta än`
+            : "inga matcher publicerade än";
         return `<details class="po-cat"><summary><span class="po-cat-name">${esc(c.name)}</span> <span class="po-cat-meta">${esc(span)}</span></summary>${tableFor(c)}</details>`;
       })
       .join("");

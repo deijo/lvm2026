@@ -48,6 +48,10 @@ function hallAndCourt(A) {
   return { hall: full, court: A.fieldName && A.fieldName !== full ? A.fieldName : "" };
 }
 
+// Tidsordning, oschemalagda matcher sist
+const byTime = (a, b) =>
+  (a.start ?? Infinity) - (b.start ?? Infinity) || `${a.hall}${a.court}`.localeCompare(`${b.hall}${b.court}`);
+
 const MATCH_FIELDS =
   "arena:{},home:{team:{}},away:{team:{}},division:{},roundName:{},result:{},referees:[{referee:{}}]";
 
@@ -142,8 +146,9 @@ export function normalize({ teams, categories, catResp, refTeams, refResp }) {
     return {
       id: M.id,
       nr: M.matchNr,
-      start: M.start,
-      end: M.end,
+      // Matcher som arrangören tillfälligt plockat bort ur schemat saknar tid (start 0).
+      start: M.isScheduled === false || !M.start ? null : M.start,
+      end: M.isScheduled === false || !M.start ? null : M.end,
       ...hallAndCourt(A),
       home: side(M.home?.href),
       away: side(M.away?.href),
@@ -225,11 +230,11 @@ export function normalize({ teams, categories, catResp, refTeams, refResp }) {
       if (r.ours) push({ kind: "ref", team: r.ours, ...m, role: r.role || "Domare" });
     }
   }
-  events.sort((a, b) => a.start - b.start || `${a.hall}${a.court}`.localeCompare(`${b.hall}${b.court}`));
+  events.sort(byTime);
 
   const playoffs = all
     .filter((m) => !/grupp/i.test(m.stage))
-    .sort((a, b) => a.start - b.start || `${a.hall}${a.court}`.localeCompare(`${b.hall}${b.court}`));
+    .sort(byTime);
 
   return { teams, categories, events, playoffs };
 }
