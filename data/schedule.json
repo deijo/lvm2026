@@ -1,6 +1,6 @@
 {
- "changed": 1793176374432,
- "checked": 1793220999885,
+ "changed": 1793221590349,
+ "checked": 1793221590349,
  "teams": [
   {
    "key": "t82397474",
@@ -944,7 +944,7 @@
    "kind": "match",
    "team": "t82397448",
    "id": 88420040,
-   "nr": "30101102",
+   "nr": "30101103",
    "start": 1793379600000,
    "end": 1793382300000,
    "hall": "Fäladshallen A",
@@ -1956,7 +1956,7 @@
    "kind": "match",
    "team": "t82397448",
    "id": 88420046,
-   "nr": "31101103",
+   "nr": "31101102",
    "start": 1793451600000,
    "end": 1793454300000,
    "hall": "Fäladshallen A",
@@ -2106,7 +2106,7 @@
    "kind": "match",
    "team": "t82397448",
    "id": 88420051,
-   "nr": "31101104",
+   "nr": "31101103",
    "start": 1793455200000,
    "end": 1793457900000,
    "hall": "Fäladshallen A",
@@ -2738,7 +2738,7 @@
   },
   {
    "id": 88549921,
-   "nr": "31101105",
+   "nr": "31101104",
    "start": 1793460600000,
    "end": 1793464200000,
    "hall": "Fäladshallen A",
@@ -3116,7 +3116,7 @@
   },
   {
    "id": 88420065,
-   "nr": "31101106",
+   "nr": "31101105",
    "start": 1793465100000,
    "end": 1793468700000,
    "hall": "Fäladshallen A",
@@ -3386,7 +3386,7 @@
   },
   {
    "id": 88420075,
-   "nr": "31101107",
+   "nr": "31101106",
    "start": 1793469600000,
    "end": 1793473200000,
    "hall": "Fäladshallen A",
@@ -3396,7 +3396,7 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31101105",
+    "name": "Vinn. 31101104",
     "teamId": null
    },
    "division": "Placering 9-12",
@@ -3639,7 +3639,7 @@
     "teamId": null
    },
    "away": {
-    "name": "Förl. 31101106",
+    "name": "Förl. 31101105",
     "teamId": null
    },
    "division": "Placering 5-8",
@@ -3693,7 +3693,7 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31101106",
+    "name": "Vinn. 31101105",
     "teamId": null
    },
    "division": "Slutspel A",
@@ -4418,7 +4418,7 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "Förl. 31101105",
+    "name": "Förl. 31101104",
     "teamId": null
    },
    "away": {
@@ -4827,7 +4827,7 @@
     "teamId": null
    },
    "away": {
-    "name": "Förl. 31101107",
+    "name": "Förl. 31101106",
     "teamId": null
    },
    "division": "Placering 9-12",
@@ -5448,7 +5448,7 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31101107",
+    "name": "Vinn. 31101106",
     "teamId": null
    },
    "division": "Placering 9-12",
