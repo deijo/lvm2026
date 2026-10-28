@@ -1,6 +1,6 @@
 {
- "changed": 1793226211819,
- "checked": 1793226211819,
+ "changed": 1793226396429,
+ "checked": 1793226396429,
  "teams": [
   {
    "key": "t82397474",
@@ -158,6 +158,43 @@
   }
  ],
  "events": [
+  {
+   "kind": "ref",
+   "team": "t82397453",
+   "id": 88420024,
+   "nr": "30101000",
+   "start": 1793368800000,
+   "end": 1793371500000,
+   "hall": "Fäladshallen A",
+   "court": "2",
+   "home": {
+    "name": "Lunds VK Red",
+    "teamId": 80604862
+   },
+   "away": {
+    "name": "Södertelge VBK",
+    "teamId": 87800028
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506236,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397453"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "role": "Huvuddomare"
+  },
   {
    "kind": "match",
    "team": "t82397459",
@@ -812,6 +849,43 @@
    },
    "stage": "Gruppspel",
    "categoryId": 79799199,
+   "role": "Huvuddomare"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397448",
+   "id": 88420045,
+   "nr": "30101103",
+   "start": 1793379600000,
+   "end": 1793382300000,
+   "hall": "Fäladshallen A",
+   "court": "3",
+   "home": {
+    "name": "Solna VBK",
+    "teamId": 88101980
+   },
+   "away": {
+    "name": "Ishøj Volley",
+    "teamId": 82143845
+   },
+   "division": "Grupp C",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506223,
+     "name": "Habo Wolley White",
+     "role": "Huvuddomare",
+     "ours": "t82397448"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
    "role": "Huvuddomare"
   },
   {
