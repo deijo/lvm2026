@@ -1,6 +1,6 @@
 {
- "changed": 1793223828330,
- "checked": 1793225656432,
+ "changed": 1793226211819,
+ "checked": 1793226211819,
  "teams": [
   {
    "key": "t82397474",
@@ -622,14 +622,7 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [
-    {
-     "id": 88507261,
-     "name": "Södertelge VBK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -660,14 +653,7 @@
    },
    "division": "Grupp C",
    "round": "",
-   "referees": [
-    {
-     "id": 88506353,
-     "name": "Hylte Halmstad VBK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -923,14 +909,7 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [
-    {
-     "id": 88506667,
-     "name": "Lunds VK Red",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -961,14 +940,7 @@
    },
    "division": "Grupp C",
    "round": "",
-   "referees": [
-    {
-     "id": 88506932,
-     "name": "Malmö VK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -1294,14 +1266,7 @@
    },
    "division": "Grupp C",
    "round": "",
-   "referees": [
-    {
-     "id": 88506537,
-     "name": "Ishøj Volley",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -1502,43 +1467,6 @@
    "us": "home"
   },
   {
-   "kind": "ref",
-   "team": "t82397448",
-   "id": 88420048,
-   "nr": "31101101",
-   "start": 1793437200000,
-   "end": 1793439900000,
-   "hall": "Fäladshallen A",
-   "court": "3",
-   "home": {
-    "name": "Solna VBK",
-    "teamId": 88101980
-   },
-   "away": {
-    "name": "Malmö VK",
-    "teamId": 87800013
-   },
-   "division": "Grupp C",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506223,
-     "name": "Habo Wolley White",
-     "role": "Huvuddomare",
-     "ours": "t82397448"
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "role": "Huvuddomare"
-  },
-  {
    "kind": "match",
    "team": "t82397474",
    "id": 88949010,
@@ -1595,14 +1523,7 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [
-    {
-     "id": 88506119,
-     "name": "Grün-Weiß Eimsbüttel",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -1822,14 +1743,7 @@
    },
    "division": "Grupp C",
    "round": "",
-   "referees": [
-    {
-     "id": 88506353,
-     "name": "Hylte Halmstad VBK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
