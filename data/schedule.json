@@ -1,6 +1,6 @@
 {
- "changed": 1793228803569,
- "checked": 1793228803569,
+ "changed": 1793228988969,
+ "checked": 1793228988969,
  "teams": [
   {
    "key": "t82397474",
@@ -310,6 +310,43 @@
    "us": "away"
   },
   {
+   "kind": "ref",
+   "team": "t82397492",
+   "id": 88833103,
+   "nr": "30102400",
+   "start": 1793368800000,
+   "end": 1793371500000,
+   "hall": "Lerbäckshallen",
+   "court": "3",
+   "home": {
+    "name": "Lunds VK DJ4",
+    "teamId": 81353336
+   },
+   "away": {
+    "name": "Tartu Katoliku Sportsclub",
+    "teamId": 87396371
+   },
+   "division": "Grupp A",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506327,
+     "name": "Habo Wolley",
+     "role": "Huvuddomare",
+     "ours": "t82397492"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411950,
+   "role": "Huvuddomare"
+  },
+  {
    "kind": "match",
    "team": "t82397484",
    "id": 88944316,
@@ -518,8 +555,8 @@
    "round": "",
    "referees": [
     {
-     "id": 88507313,
-     "name": "Tartu Katoliku Sportsclub",
+     "id": 88506880,
+     "name": "Lunds VK DJ4",
      "role": "Huvuddomare",
      "ours": null
     }
@@ -1458,7 +1495,14 @@
    },
    "division": "Grupp A",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88505937,
+     "name": "Borgen VK BorgenMasters",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -1659,6 +1703,43 @@
    "categoryId": 74411945,
    "opponent": "Hästhagen IF Kol",
    "us": "away"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397492",
+   "id": 88833090,
+   "nr": "31102501",
+   "start": 1793440800000,
+   "end": 1793443500000,
+   "hall": "Lerbäckshallen",
+   "court": "4",
+   "home": {
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779215
+   },
+   "away": {
+    "name": "Tartu Katoliku Sportsclub",
+    "teamId": 87396371
+   },
+   "division": "Grupp A",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506327,
+     "name": "Habo Wolley",
+     "role": "Huvuddomare",
+     "ours": "t82397492"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411950,
+   "role": "Huvuddomare"
   },
   {
    "kind": "match",
@@ -2305,7 +2386,14 @@
    },
    "division": "Grupp A",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506880,
+     "name": "Lunds VK DJ4",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
