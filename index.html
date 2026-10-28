@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Habo Wolley – LVM 2026</title>
-<meta name="description" content="Matcher, domaruppdrag och slutspel för Habo Wolley på Lund Volley Masters 2026.">
+<meta name="description" content="Matcher, domaruppdrag och slutspel för Habo Wolleys lag på Lund Volley Masters 2026.">
 <meta name="theme-color" content="#13233A">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +24,7 @@
   --white-team: #13233A;
   --won: #1E7A46;
   --lost: #A33A2E;
+  --club: #17756A;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -41,6 +42,7 @@
     --white-team: #E8EEF6;
     --won: #4CC07E;
     --lost: #F07B6C;
+    --club: #2E9C8E;
     color-scheme: dark;
   }
 }
@@ -53,7 +55,7 @@ body {
   font: 400 1rem/1.45 "Barlow", system-ui, sans-serif;
 }
 .wrap { max-width: 44rem; margin: 0 auto; padding: 0 1rem 3rem; }
-h1, h2, h3, .time, .court, .kind, .team, .next-tag, .score, .filter button, #refresh, .po-time {
+h1, h2, h3, h4, .time, .court, .kind, .team, .next-tag, .score, .po-time, .po-cat-name {
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
 }
 header { padding: 1.75rem 0 1rem; }
@@ -67,26 +69,42 @@ h1 { font-size: clamp(2.2rem, 8vw, 3.2rem); line-height: 1; margin: 0; font-weig
   border-bottom: 1px solid var(--line);
   display: flex; flex-wrap: wrap; gap: .5rem .75rem; align-items: center;
 }
-.filter { display: flex; border: 2px solid var(--ink); border-radius: 999px; overflow: hidden; }
-.filter button {
-  appearance: none; border: 0; background: transparent; color: var(--ink);
-  font-size: 1.05rem; font-weight: 600; padding: .3rem .95rem; cursor: pointer;
+.filters { flex-basis: 100%; display: grid; gap: .4rem; min-width: 0; }
+.chips {
+  display: flex; gap: .35rem; overflow-x: auto; scrollbar-width: none;
+  margin: 0 -1rem; padding: 2px 1rem;
 }
-.filter button + button { border-left: 2px solid var(--ink); }
-.filter button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.chips::-webkit-scrollbar { display: none; }
+.chips button {
+  appearance: none; flex: none; white-space: nowrap; cursor: pointer;
+  border: 2px solid var(--ink); border-radius: 999px; background: transparent; color: var(--ink);
+  font-size: 1.05rem; font-weight: 600; padding: .22rem .85rem;
+}
+.chips button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+#filter-teams button { border-color: var(--court); color: var(--court); font-size: 1rem; padding: .16rem .75rem; }
+#filter-teams button[aria-pressed="true"] { background: var(--court); color: #fff; }
+.chips button, #refresh { font-family: "Barlow Condensed", "Arial Narrow", sans-serif; }
 #refresh {
-  appearance: none; margin-left: auto;
+  appearance: none;
   border: 0; border-radius: 999px; background: var(--court); color: #fff;
   font-size: 1.05rem; font-weight: 600; padding: .4rem 1.1rem; cursor: pointer;
 }
 #refresh:disabled { opacity: .6; cursor: progress; }
 button:focus-visible { outline: 3px solid var(--ball); outline-offset: 2px; }
-#status { flex-basis: 100%; margin: 0; font-size: .85rem; color: var(--muted); }
+#status { flex: 1 1 12rem; margin: 0; font-size: .85rem; color: var(--muted); }
 #status.warn { color: var(--lost); font-weight: 600; }
 
 h2 { font-size: 1.9rem; font-weight: 700; margin: 2rem 0 .25rem; line-height: 1.1; }
 .lede { margin: 0 0 .5rem; color: var(--muted); max-width: 38rem; }
-.day h3 { font-size: 1.35rem; font-weight: 600; margin: 1.4rem 0 .5rem; color: var(--court); }
+.day h3, .day h4 { font-size: 1.35rem; font-weight: 600; margin: 1.4rem 0 .5rem; color: var(--court); }
+.po-cat { background: var(--surface); border-radius: 10px; margin: .5rem 0; padding: 0 .8rem; }
+.po-cat summary { cursor: pointer; padding: .7rem 0; list-style-position: inside; }
+.po-cat summary:focus-visible { outline: 3px solid var(--ball); outline-offset: 2px; }
+.po-cat-name { font-size: 1.3rem; font-weight: 700; }
+.po-cat-meta { color: var(--muted); font-size: .9rem; }
+.po-cat[open] { padding-bottom: .8rem; }
+.po-cat .po { background: var(--bg); }
+.po-cat .day h4 { margin-top: .6rem; }
 
 .events { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
 .event {
@@ -96,7 +114,8 @@ h2 { font-size: 1.9rem; font-weight: 700; margin: 2rem 0 .25rem; line-height: 1.
   border-left: 6px solid var(--white-team);
   padding: .75rem .9rem .75rem .8rem;
 }
-.event.team-red { border-left-color: var(--red); }
+.event.c-red { border-left-color: var(--red); }
+.event.c-club { border-left-color: var(--club); }
 .event.ref { background: var(--ref-bg); }
 .event.next { box-shadow: 0 0 0 3px var(--ball); }
 .event.past { opacity: .55; }
@@ -112,8 +131,9 @@ h2 { font-size: 1.9rem; font-weight: 700; margin: 2rem 0 .25rem; line-height: 1.
 }
 .match .kind { background: var(--court); color: #fff; }
 .ref .kind { background: transparent; color: var(--ink); border: 2px solid var(--ref-edge); padding: .16rem .45rem; }
-.team-white .team { border: 2px solid var(--white-team); color: var(--white-team); padding: .16rem .45rem; }
-.team-red .team { background: var(--red); color: #fff; }
+.c-white .team { border: 2px solid var(--white-team); color: var(--white-team); padding: .16rem .45rem; }
+.c-red .team { background: var(--red); color: #fff; }
+.c-club .team { background: var(--club); color: #fff; }
 .next-tag { background: var(--ball); color: #13233A; }
 .score { color: var(--muted); padding-left: 0; }
 .score.won { color: var(--won); }
@@ -155,38 +175,37 @@ footer ul { padding-left: 1.1rem; }
 <div class="wrap">
   <header>
     <h1>Habo Wolley i Lund</h1>
-    <p class="sub">Lund Volley Masters, 30 oktober – 1 november 2026. FU18 (född -10).</p>
+    <p class="sub" id="sub">Lund Volley Masters, 30 oktober – 1 november 2026.</p>
   </header>
 
   <div class="controls">
-    <div class="filter" role="group" aria-label="Visa lag">
-      <button type="button" data-filter="all" aria-pressed="true">Båda</button>
-      <button type="button" data-filter="white" aria-pressed="false">White</button>
-      <button type="button" data-filter="red" aria-pressed="false">Red</button>
+    <div class="filters">
+      <div class="chips" id="filter-cats" role="group" aria-label="Visa klass"></div>
+      <div class="chips" id="filter-teams" role="group" hidden></div>
     </div>
     <button type="button" id="refresh">Uppdatera</button>
     <p id="status" role="status">Hämtar schemat …</p>
   </div>
 
   <main>
-    <h2>Våra matcher och domaruppdrag</h2>
+    <h2 id="schedule-title">Alla lagens matcher och domaruppdrag</h2>
     <p class="lede">Gula rader är era domaruppdrag. Under varje match står vilket lag som dömer. Slutspelsmatcher dyker upp här så fort lagen är placerade.</p>
     <div id="schedule"></div>
 
-    <h2>Slutspel FU18</h2>
-    <p class="lede">Alla slutspelsmatcher i klassen. Rader där Habo spelar eller dömer markeras.</p>
+    <h2 id="playoffs-title">Slutspel</h2>
+    <p class="lede" id="playoffs-lede"></p>
     <div id="playoffs"></div>
   </main>
 
   <footer>
     <p>Schemat hämtas från turneringens egen sida ungefär var tionde minut. Vid oklarheter gäller alltid turneringens sida.</p>
     <ul>
-      <li><a href="https://lundvolleymasters.cupmanager.net/2026/result/team/82397484">White på turneringens sida</a></li>
-      <li><a href="https://lundvolleymasters.cupmanager.net/2026/result/team/82397479">Red på turneringens sida</a></li>
+      <li><a href="https://lundvolleymasters.cupmanager.net/2026/result/club/82383983">Habo Wolley på turneringens sida</a></li>
+      <li><a href="https://lundvolleymasters.cupmanager.net/2026/result/latest">Senaste resultat</a></li>
       <li><a href="https://lundvolleymasters.cupmanager.net/2026/result/referees">Domarschema</a></li>
     </ul>
   </footer>
 </div>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
