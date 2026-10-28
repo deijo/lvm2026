@@ -38,6 +38,16 @@ const idOf = (href) => (href ? Number((href.match(/id:(\d+)/) || [])[1]) || null
 // "FU18 (född -10)" → "FU18"
 const shortCat = (name) => name.replace(/\s*\(.*?\)\s*/g, " ").trim();
 
+// "Tunaskolan 2" → Tunaskolan / 2, "Fäladshallen A - Plan 3" → Fäladshallen A / 3
+function hallAndCourt(A) {
+  const full = (A.completeName || "").trim();
+  let m = /^(.*?)\s*-\s*Plan\s*(\S+)$/i.exec(full);
+  if (m) return { hall: m[1], court: m[2] };
+  m = /^(.*?)\s+(\d+)$/.exec(full);
+  if (m) return { hall: m[1], court: m[2] };
+  return { hall: full, court: A.fieldName && A.fieldName !== full ? A.fieldName : "" };
+}
+
 const MATCH_FIELDS =
   "arena:{},home:{team:{}},away:{team:{}},division:{},roundName:{},result:{},referees:[{referee:{}}]";
 
@@ -134,8 +144,7 @@ export function normalize({ teams, categories, catResp, refTeams, refResp }) {
       nr: M.matchNr,
       start: M.start,
       end: M.end,
-      hall: (A.completeName || "").replace(/\s*\d+$/, ""),
-      court: A.fieldName || "",
+      ...hallAndCourt(A),
       home: side(M.home?.href),
       away: side(M.away?.href),
       division: nm(D.name),
