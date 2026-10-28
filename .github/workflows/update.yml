@@ -5,6 +5,11 @@ on:
     # Var 10:e minut. GitHub kan fördröja schemalagda körningar några minuter.
     - cron: "*/10 * * * *"
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update.yml"
 
 permissions:
   contents: write
