@@ -1,13 +1,13 @@
 name: Uppdatera schemat
 
-# Varje körning håller igång i nästan sex timmar och kontrollerar turneringens
-# schema var tredje minut. GitHubs schemalagda starter kan dröja eller utebli,
-# så de används bara för att se till att en ny körning tar över när den gamla
-# är klar. Bara en körning åt gången; nästa väntar i kö.
+# Varje körning håller igång i knappt sex timmar och kontrollerar turneringens
+# schema var tredje minut. När den är klar startar den själv nästa körning
+# (jobbet "starta-nasta"), så kedjan beror inte på GitHubs schemaläggning,
+# som visat sig utebli helt. Schemaläggningen finns kvar som extra reserv.
+# Bara en körning åt gången; nästa väntar i kö.
 
 on:
   schedule:
-    # Utanför jämna minuter, då GitHub är minst belastat.
     - cron: "13,43 * * * *"
   workflow_dispatch:
     inputs:
@@ -23,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: update-schedule
@@ -63,3 +64,22 @@ jobs:
             if [ "$SECONDS" -ge "$end" ]; then break; fi
             sleep 180
           done
+
+  # Startar nästa körning när den här är klar, även om den misslyckades.
+  # (Körningar som startas med workflow_dispatch via GITHUB_TOKEN tillåts av GitHub.)
+  starta-nasta:
+    needs: update
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Starta nästa körning
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in 1 2 3; do
+            gh workflow run update.yml --repo "$GITHUB_REPOSITORY" --ref main && exit 0
+            sleep 20
+          done
+          echo "::error::Kunde inte starta nästa körning."
+          exit 1
