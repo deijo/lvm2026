@@ -1,0 +1,1281 @@
+{
+ "changed": 1793175422088,
+ "teams": [
+  {
+   "key": "white",
+   "label": "White",
+   "name": "Habo Wolley White",
+   "id": 82397484,
+   "referee": 88506314
+  },
+  {
+   "key": "red",
+   "label": "Red",
+   "name": "Habo Wolley Red",
+   "id": 82397479,
+   "referee": 88506301
+  }
+ ],
+ "events": [
+  {
+   "kind": "match",
+   "team": "white",
+   "id": 88944316,
+   "nr": "30102800",
+   "start": 1793368800000,
+   "end": 1793371500000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Sollentuna VK Steelwrist",
+    "teamId": 82055669
+   },
+   "away": {
+    "name": "Habo Wolley White",
+    "teamId": 82397484
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506405,
+     "name": "Hylte Halmstad VBK White",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "opponent": "Sollentuna VK Steelwrist",
+   "us": "away"
+  },
+  {
+   "kind": "match",
+   "team": "red",
+   "id": 88944359,
+   "nr": "30103000",
+   "start": 1793368800000,
+   "end": 1793371500000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
+   },
+   "away": {
+    "name": "Södertelge VBK",
+    "teamId": 87800035
+   },
+   "division": "Grupp D",
+   "round": "",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "opponent": "Södertelge VBK",
+   "us": "home"
+  },
+  {
+   "kind": "ref",
+   "team": "white",
+   "id": 88944320,
+   "nr": "30102801",
+   "start": 1793372400000,
+   "end": 1793375100000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Borgen VK",
+    "teamId": 87799659
+   },
+   "away": {
+    "name": "Sollentuna VK Steelwrist",
+    "teamId": 82055669
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506314,
+     "name": "Habo Wolley White",
+     "role": "Huvuddomare",
+     "ours": "white"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "",
+   "role": "Huvuddomare"
+  },
+  {
+   "kind": "match",
+   "team": "white",
+   "id": 88944319,
+   "nr": "30102803",
+   "start": 1793379600000,
+   "end": 1793382300000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397484
+   },
+   "away": {
+    "name": "Hylte Halmstad VBK White",
+    "teamId": 88416292
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88505924,
+     "name": "Borgen VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "opponent": "Hylte Halmstad VBK White",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "white",
+   "id": 88944323,
+   "nr": "30102804",
+   "start": 1793383200000,
+   "end": 1793385900000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397484
+   },
+   "away": {
+    "name": "Borgen VK",
+    "teamId": 87799659
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506405,
+     "name": "Hylte Halmstad VBK White",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "opponent": "Borgen VK",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "red",
+   "id": 88944364,
+   "nr": "30103004",
+   "start": 1793383200000,
+   "end": 1793385900000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "Ishøj Volley",
+    "teamId": 82143849
+   },
+   "away": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
+   },
+   "division": "Grupp D",
+   "round": "",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "opponent": "Ishøj Volley",
+   "us": "away"
+  },
+  {
+   "kind": "ref",
+   "team": "white",
+   "id": 88944317,
+   "nr": "31102800",
+   "start": 1793433600000,
+   "end": 1793436300000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "BSC Hanse",
+    "teamId": 82210630
+   },
+   "away": {
+    "name": "Borgen VK",
+    "teamId": 87799659
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506314,
+     "name": "Habo Wolley White",
+     "role": "Huvuddomare",
+     "ours": "white"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "",
+   "role": "Huvuddomare"
+  },
+  {
+   "kind": "match",
+   "team": "red",
+   "id": 88944368,
+   "nr": "31103002",
+   "start": 1793440800000,
+   "end": 1793443500000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
+   },
+   "away": {
+    "name": "Sollentuna VK Dignitas",
+    "teamId": 82055655
+   },
+   "division": "Grupp D",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506550,
+     "name": "Ishøj Volley",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "opponent": "Sollentuna VK Dignitas",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "white",
+   "id": 88944326,
+   "nr": "31102803",
+   "start": 1793451600000,
+   "end": 1793454300000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "BSC Hanse",
+    "teamId": 82210630
+   },
+   "away": {
+    "name": "Habo Wolley White",
+    "teamId": 82397484
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88507142,
+     "name": "Sollentuna VK Steelwrist",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "opponent": "BSC Hanse",
+   "us": "away"
+  },
+  {
+   "kind": "ref",
+   "team": "red",
+   "id": 88944370,
+   "nr": "31103003",
+   "start": 1793451600000,
+   "end": 1793454300000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "Södertelge VBK",
+    "teamId": 87800035
+   },
+   "away": {
+    "name": "Ishøj Volley",
+    "teamId": 82143849
+   },
+   "division": "Grupp D",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506301,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "red"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "",
+   "role": "Huvuddomare"
+  },
+  {
+   "kind": "ref",
+   "team": "white",
+   "id": 88944329,
+   "nr": "31102804",
+   "start": 1793455200000,
+   "end": 1793457900000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Sollentuna VK Steelwrist",
+    "teamId": 82055669
+   },
+   "away": {
+    "name": "BSC Hanse",
+    "teamId": 82210630
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506314,
+     "name": "Habo Wolley White",
+     "role": "Huvuddomare",
+     "ours": "white"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "",
+   "role": "Huvuddomare"
+  },
+  {
+   "kind": "match",
+   "team": "red",
+   "id": 88944371,
+   "nr": "31103004",
+   "start": 1793455200000,
+   "end": 1793457900000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "Hässleholms VK",
+    "teamId": 87799863
+   },
+   "away": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
+   },
+   "division": "Grupp D",
+   "round": "",
+   "referees": [
+    {
+     "id": 88507116,
+     "name": "Sollentuna VK Dignitas",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "opponent": "Hässleholms VK",
+   "us": "away"
+  }
+ ],
+ "playoffs": [
+  {
+   "id": 88944395,
+   "nr": "31100305",
+   "start": 1793458800000,
+   "end": 1793462400000,
+   "hall": "Tunaskolan",
+   "court": "1",
+   "home": {
+    "name": "2:an i Grupp C",
+    "teamId": null
+   },
+   "away": {
+    "name": "Bästa 3:an",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "1/8 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944397,
+   "nr": "31102805",
+   "start": 1793458800000,
+   "end": 1793462400000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "2:an i Grupp B",
+    "teamId": null
+   },
+   "away": {
+    "name": "4:e bästa 3:an",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "1/8 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944400,
+   "nr": "31102905",
+   "start": 1793458800000,
+   "end": 1793462400000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "2:an i Grupp D",
+    "teamId": null
+   },
+   "away": {
+    "name": "2:a bästa 3:an",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "1/8 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944404,
+   "nr": "31103005",
+   "start": 1793458800000,
+   "end": 1793462400000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "2:an i Grupp A",
+    "teamId": null
+   },
+   "away": {
+    "name": "3:e bästa 3:an",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "1/8 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944411,
+   "nr": "31100306",
+   "start": 1793464200000,
+   "end": 1793467800000,
+   "hall": "Tunaskolan",
+   "court": "1",
+   "home": {
+    "name": "Bästa 4:an",
+    "teamId": null
+   },
+   "away": {
+    "name": "4:e bästa 5:an",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "13-20",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944412,
+   "nr": "31102806",
+   "start": 1793464200000,
+   "end": 1793467800000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "4:e bästa 4:an",
+    "teamId": null
+   },
+   "away": {
+    "name": "Bästa 5:an",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "13-20",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944414,
+   "nr": "31102906",
+   "start": 1793464200000,
+   "end": 1793467800000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "2:a bästa 4:an",
+    "teamId": null
+   },
+   "away": {
+    "name": "3:e bästa 5:an",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "13-20",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944415,
+   "nr": "31103006",
+   "start": 1793464200000,
+   "end": 1793467800000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "3:e bästa 4:an",
+    "teamId": null
+   },
+   "away": {
+    "name": "2:a bästa 5:an",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "13-20",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944394,
+   "nr": "31100307",
+   "start": 1793469600000,
+   "end": 1793473200000,
+   "hall": "Tunaskolan",
+   "court": "1",
+   "home": {
+    "name": "1:an i Grupp A",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31100305",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944396,
+   "nr": "31102807",
+   "start": 1793469600000,
+   "end": 1793473200000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "1:an i Grupp D",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31102805",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944399,
+   "nr": "31102907",
+   "start": 1793469600000,
+   "end": 1793473200000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "1:an i Grupp B",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31102905",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944401,
+   "nr": "31103007",
+   "start": 1793469600000,
+   "end": 1793473200000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "1:an i Grupp C",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31103005",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944692,
+   "nr": "01110300",
+   "start": 1793520000000,
+   "end": 1793523600000,
+   "hall": "Tunaskolan",
+   "court": "1",
+   "home": {
+    "name": "Förl. 31100305",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 31103005",
+    "teamId": null
+   },
+   "division": "Placering 9-12",
+   "round": "9-12",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944393,
+   "nr": "01112800",
+   "start": 1793520000000,
+   "end": 1793523600000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Vinn. 31100307",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31102807",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "Semifinal",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944656,
+   "nr": "01112900",
+   "start": 1793520000000,
+   "end": 1793523600000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Förl. 31100307",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 31103007",
+    "teamId": null
+   },
+   "division": "PLacering 5-8",
+   "round": "5-8",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944739,
+   "nr": "01110400",
+   "start": 1793520000000,
+   "end": 1793523600000,
+   "hall": "Vipeholmsskolan",
+   "court": "1",
+   "home": {
+    "name": "Förl. 31100306",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 31103006",
+    "teamId": null
+   },
+   "division": "Placering 17-20",
+   "round": "17-20",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944410,
+   "nr": "01113100",
+   "start": 1793520000000,
+   "end": 1793523600000,
+   "hall": "Vipeholmsskolan",
+   "court": "2",
+   "home": {
+    "name": "Vinn. 31100306",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31102806",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "13-16",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944693,
+   "nr": "01110301",
+   "start": 1793525400000,
+   "end": 1793529000000,
+   "hall": "Tunaskolan",
+   "court": "1",
+   "home": {
+    "name": "Förl. 31102805",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 31102905",
+    "teamId": null
+   },
+   "division": "Placering 9-12",
+   "round": "9-12",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944398,
+   "nr": "01112801",
+   "start": 1793525400000,
+   "end": 1793529000000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Vinn. 31102907",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31103007",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "Semifinal",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944660,
+   "nr": "01112901",
+   "start": 1793525400000,
+   "end": 1793529000000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Förl. 31102807",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 31102907",
+    "teamId": null
+   },
+   "division": "PLacering 5-8",
+   "round": "5-8",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944740,
+   "nr": "01110401",
+   "start": 1793525400000,
+   "end": 1793529000000,
+   "hall": "Vipeholmsskolan",
+   "court": "1",
+   "home": {
+    "name": "Förl. 31102806",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 31102906",
+    "teamId": null
+   },
+   "division": "Placering 17-20",
+   "round": "17-20",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944413,
+   "nr": "01113101",
+   "start": 1793525400000,
+   "end": 1793529000000,
+   "hall": "Vipeholmsskolan",
+   "court": "2",
+   "home": {
+    "name": "Vinn. 31102906",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31103006",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "13-16",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944695,
+   "nr": "01110302",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "Tunaskolan",
+   "court": "1",
+   "home": {
+    "name": "Förl. 01110300",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 01110301",
+    "teamId": null
+   },
+   "division": "Placering 9-12",
+   "round": "11-12",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944403,
+   "nr": "01112802",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Förl. 01112800",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 01112801",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "Bronsmatch",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944663,
+   "nr": "01112902",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Förl. 01112900",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 01112901",
+    "teamId": null
+   },
+   "division": "PLacering 5-8",
+   "round": "7-8",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944742,
+   "nr": "01110402",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "Vipeholmsskolan",
+   "court": "1",
+   "home": {
+    "name": "Förl. 01110400",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 01110401",
+    "teamId": null
+   },
+   "division": "Placering 17-20",
+   "round": "19-20",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944417,
+   "nr": "01113102",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "Vipeholmsskolan",
+   "court": "2",
+   "home": {
+    "name": "Förl. 01113100",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 01113101",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "15-16",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944691,
+   "nr": "01110303",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Tunaskolan",
+   "court": "1",
+   "home": {
+    "name": "Vinn. 01110300",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 01110301",
+    "teamId": null
+   },
+   "division": "Placering 9-12",
+   "round": "9-10",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944392,
+   "nr": "01112803",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Vinn. 01112800",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 01112801",
+    "teamId": null
+   },
+   "division": "Slutspel A",
+   "round": "Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944655,
+   "nr": "01112903",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Vinn. 01112900",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 01112901",
+    "teamId": null
+   },
+   "division": "PLacering 5-8",
+   "round": "5-6",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A"
+  },
+  {
+   "id": 88944738,
+   "nr": "01110403",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Vipeholmsskolan",
+   "court": "1",
+   "home": {
+    "name": "Vinn. 01110400",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 01110401",
+    "teamId": null
+   },
+   "division": "Placering 17-20",
+   "round": "17-18",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  },
+  {
+   "id": 88944409,
+   "nr": "01113103",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Vipeholmsskolan",
+   "court": "2",
+   "home": {
+    "name": "Vinn. 01113100",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 01113101",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "13-14",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B"
+  }
+ ]
+}

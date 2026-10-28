@@ -121,6 +121,10 @@ h2 { font-size: 1.9rem; font-weight: 700; margin: 2rem 0 .25rem; line-height: 1.
 .score.live { color: var(--red); }
 .who { font-size: 1.08rem; }
 .role, .phase { font-size: .88rem; color: var(--muted); }
+.refs { font-size: .92rem; margin-top: .1rem; }
+.refs.none { color: var(--muted); font-style: italic; }
+.po .refs { font-size: .82rem; color: var(--muted); }
+.po .refs strong { color: var(--ink); }
 
 .po { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 10px; overflow: hidden; }
 .po th { text-align: left; font-size: .8rem; font-weight: 600; color: var(--muted); padding: .45rem .6rem; border-bottom: 1px solid var(--line); }
@@ -166,16 +170,16 @@ footer ul { padding-left: 1.1rem; }
 
   <main>
     <h2>Våra matcher och domaruppdrag</h2>
-    <p class="lede">Gula rader är domaruppdrag. Slutspelsmatcher dyker upp här så fort lagen är placerade.</p>
+    <p class="lede">Gula rader är era domaruppdrag. Under varje match står vilket lag som dömer. Slutspelsmatcher dyker upp här så fort lagen är placerade.</p>
     <div id="schedule"></div>
 
     <h2>Slutspel FU18</h2>
-    <p class="lede">Alla slutspelsmatcher i klassen. Rader där Habo spelar markeras.</p>
+    <p class="lede">Alla slutspelsmatcher i klassen. Rader där Habo spelar eller dömer markeras.</p>
     <div id="playoffs"></div>
   </main>
 
   <footer>
-    <p>Hämtas direkt från turneringens egen sida, som alltid gäller vid oklarheter. Sidan uppdateras själv var tredje minut.</p>
+    <p>Schemat hämtas från turneringens egen sida ungefär var tionde minut. Vid oklarheter gäller alltid turneringens sida.</p>
     <ul>
       <li><a href="https://lundvolleymasters.cupmanager.net/2026/result/team/82397484">White på turneringens sida</a></li>
       <li><a href="https://lundvolleymasters.cupmanager.net/2026/result/team/82397479">Red på turneringens sida</a></li>
