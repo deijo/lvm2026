@@ -1,6 +1,6 @@
 {
- "changed": 1793226582406,
- "checked": 1793226582406,
+ "changed": 1793226767532,
+ "checked": 1793226767532,
  "teams": [
   {
    "key": "t82397474",
@@ -1350,6 +1350,43 @@
    "role": "Huvuddomare"
   },
   {
+   "kind": "ref",
+   "team": "t82397453",
+   "id": 88420031,
+   "nr": "31101000",
+   "start": 1793433600000,
+   "end": 1793436300000,
+   "hall": "Fäladshallen A",
+   "court": "2",
+   "home": {
+    "name": "Södertelge VBK",
+    "teamId": 87800028
+   },
+   "away": {
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779195
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506236,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397453"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "role": "Huvuddomare"
+  },
+  {
    "kind": "match",
    "team": "t82397448",
    "id": 88420046,
@@ -1368,7 +1405,14 @@
    },
    "division": "Grupp C",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506932,
+     "name": "Malmö VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -1625,7 +1669,14 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506119,
+     "name": "Grün-Weiß Eimsbüttel",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -1845,7 +1896,14 @@
    },
    "division": "Grupp C",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506537,
+     "name": "Ishøj Volley",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -2005,6 +2063,43 @@
    },
    "stage": "Gruppspel",
    "categoryId": 74411948,
+   "role": "Huvuddomare"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397448",
+   "id": 88420052,
+   "nr": "31101104",
+   "start": 1793455200000,
+   "end": 1793457900000,
+   "hall": "Fäladshallen A",
+   "court": "3",
+   "home": {
+    "name": "Malmö VK",
+    "teamId": 87800013
+   },
+   "away": {
+    "name": "Ishøj Volley",
+    "teamId": 82143845
+   },
+   "division": "Grupp C",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506223,
+     "name": "Habo Wolley White",
+     "role": "Huvuddomare",
+     "ours": "t82397448"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
    "role": "Huvuddomare"
   },
   {
