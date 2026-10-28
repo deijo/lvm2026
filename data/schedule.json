@@ -1,6 +1,6 @@
 {
- "changed": 1793229357166,
- "checked": 1793229357166,
+ "changed": 1793229724544,
+ "checked": 1793229724544,
  "teams": [
   {
    "key": "t82397474",
@@ -1928,6 +1928,43 @@
    },
    "stage": "Gruppspel",
    "categoryId": 74411946,
+   "role": "Huvuddomare"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397492",
+   "id": 88833091,
+   "nr": "31102502",
+   "start": 1793451600000,
+   "end": 1793454300000,
+   "hall": "Lerbäckshallen",
+   "court": "4",
+   "home": {
+    "name": "Sollentuna VK SVK FU20",
+    "teamId": 82055679
+   },
+   "away": {
+    "name": "Lunds VK DJ3",
+    "teamId": 81353332
+   },
+   "division": "Grupp A",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506327,
+     "name": "Habo Wolley",
+     "role": "Huvuddomare",
+     "ours": "t82397492"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411950,
    "role": "Huvuddomare"
   },
   {
