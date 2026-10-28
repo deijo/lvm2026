@@ -270,11 +270,11 @@ function render() {
   const checked = data.checked || data.changed || 0;
   const stale = !checked || Date.now() - checked > STALE_MINUTES * 60 * 1000;
   if (state.error) {
-    status.textContent = `Kunde inte hämta senaste versionen. Visar schemat som kontrollerades ${checked ? when(checked) : "okänt"}.`;
+    status.textContent = `Kunde inte hämta senaste versionen. Visar schemat som senast bekräftades ${checked ? when(checked) : "okänt"}.`;
   } else if (stale) {
-    status.textContent = `Schemat har inte kontrollerats mot turneringen sedan ${checked ? when(checked) : "okänt"}. Dubbelkolla tider på turneringens sida.`;
+    status.textContent = `Schemat har inte bekräftats mot turneringen sedan ${checked ? when(checked) : "okänt"}. Dubbelkolla tider på turneringens sida.`;
   } else {
-    status.textContent = `Kontrollerat mot turneringen ${when(checked)}. Senaste ändring ${data.changed ? when(data.changed) : "okänt"}.`;
+    status.textContent = `Kontrolleras mot turneringen var tredje minut. Senast bekräftat ${when(checked)}. Senaste ändring ${data.changed ? when(data.changed) : "okänt"}.`;
   }
   status.classList.toggle("warn", state.error || stale);
 }
