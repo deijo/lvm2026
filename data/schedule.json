@@ -1,6 +1,6 @@
 {
- "changed": 1793228249450,
- "checked": 1793228249450,
+ "changed": 1793228435143,
+ "checked": 1793228435143,
  "teams": [
   {
    "key": "t82397474",
@@ -1797,7 +1797,14 @@
    },
    "division": "Grupp D",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506431,
+     "name": "Hässleholms VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -1997,6 +2004,43 @@
    "categoryId": 74411948,
    "opponent": "BSC Hanse",
    "us": "away"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397479",
+   "id": 88944370,
+   "nr": "31103003",
+   "start": 1793451600000,
+   "end": 1793454300000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "Södertelge VBK",
+    "teamId": 87800035
+   },
+   "away": {
+    "name": "Ishøj Volley",
+    "teamId": 82143849
+   },
+   "division": "Grupp D",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506301,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397479"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411948,
+   "role": "Huvuddomare"
   },
   {
    "kind": "ref",
@@ -2242,7 +2286,14 @@
    },
    "division": "Grupp D",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507287,
+     "name": "Södertelge VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
