@@ -1,6 +1,6 @@
 {
- "changed": 1793226396429,
- "checked": 1793226396429,
+ "changed": 1793226582406,
+ "checked": 1793226582406,
  "teams": [
   {
    "key": "t82397474",
@@ -659,7 +659,14 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507261,
+     "name": "Södertelge VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -690,7 +697,14 @@
    },
    "division": "Grupp C",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506054,
+     "name": "Falkenbergs Volleybollklubb",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -983,7 +997,14 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506667,
+     "name": "Lunds VK Red",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -1014,7 +1035,14 @@
    },
    "division": "Grupp C",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507181,
+     "name": "Solna VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
