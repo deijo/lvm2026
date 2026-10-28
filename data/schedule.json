@@ -1,6 +1,6 @@
 {
- "changed": 1793228619396,
- "checked": 1793228619396,
+ "changed": 1793228803569,
+ "checked": 1793228803569,
  "teams": [
   {
    "key": "t82397474",
@@ -1081,7 +1081,14 @@
    },
    "division": "Grupp A",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507313,
+     "name": "Tartu Katoliku Sportsclub",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
