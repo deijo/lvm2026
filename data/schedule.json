@@ -1,6 +1,6 @@
 {
- "changed": 1793222898553,
- "checked": 1793222898553,
+ "changed": 1793223085203,
+ "checked": 1793223085203,
  "teams": [
   {
    "key": "t82397474",
@@ -158,6 +158,44 @@
   }
  ],
  "events": [
+  {
+   "kind": "match",
+   "team": "t82397459",
+   "id": 88420354,
+   "nr": "30101300",
+   "start": 1793368800000,
+   "end": 1793372400000,
+   "hall": "Fäladshallen B",
+   "court": "1",
+   "home": {
+    "name": "Habo Wolley",
+    "teamId": 82397459
+   },
+   "away": {
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898615
+   },
+   "division": "Grupp A",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506693,
+     "name": "Lunds VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411949,
+   "opponent": "Kaunas SM \"Startas\"",
+   "us": "home"
+  },
   {
    "kind": "match",
    "team": "t82397474",
@@ -529,30 +567,30 @@
    "us": "away"
   },
   {
-   "kind": "match",
+   "kind": "ref",
    "team": "t82397459",
-   "id": 88420354,
+   "id": 88420355,
    "nr": "30101301",
    "start": 1793373300000,
    "end": 1793376900000,
    "hall": "Fäladshallen B",
    "court": "1",
    "home": {
-    "name": "Habo Wolley",
-    "teamId": 82397459
+    "name": "Hästhagen IF U20P",
+    "teamId": 87813209
    },
    "away": {
-    "name": "Kaunas SM \"Startas\"",
-    "teamId": 86898615
+    "name": "Malmö VK U20",
+    "teamId": 87818110
    },
    "division": "Grupp A",
    "round": "",
    "referees": [
     {
-     "id": 88506693,
-     "name": "Lunds VK",
+     "id": 88506249,
+     "name": "Habo Wolley",
      "role": "Huvuddomare",
-     "ours": null
+     "ours": "t82397459"
     }
    ],
    "result": {
@@ -563,8 +601,7 @@
    },
    "stage": "Gruppspel",
    "categoryId": 74411949,
-   "opponent": "Kaunas SM \"Startas\"",
-   "us": "home"
+   "role": "Huvuddomare"
   },
   {
    "kind": "match",
@@ -792,30 +829,30 @@
    "role": "Huvuddomare"
   },
   {
-   "kind": "ref",
+   "kind": "match",
    "team": "t82397459",
-   "id": 88420355,
+   "id": 88420361,
    "nr": "30101302",
    "start": 1793377800000,
    "end": 1793381400000,
    "hall": "Fäladshallen B",
    "court": "1",
    "home": {
-    "name": "Hästhagen IF U20P",
-    "teamId": 87813209
+    "name": "Habo Wolley",
+    "teamId": 82397459
    },
    "away": {
-    "name": "Malmö VK U20",
-    "teamId": 87818110
+    "name": "Lunds VK",
+    "teamId": 80604870
    },
    "division": "Grupp A",
    "round": "",
    "referees": [
     {
-     "id": 88506249,
-     "name": "Habo Wolley",
+     "id": 88506470,
+     "name": "Hästhagen IF U20P",
      "role": "Huvuddomare",
-     "ours": "t82397459"
+     "ours": null
     }
    ],
    "result": {
@@ -826,7 +863,8 @@
    },
    "stage": "Gruppspel",
    "categoryId": 74411949,
-   "role": "Huvuddomare"
+   "opponent": "Lunds VK",
+   "us": "home"
   },
   {
    "kind": "match",
@@ -902,44 +940,6 @@
    "stage": "Gruppspel",
    "categoryId": 74411948,
    "opponent": "Hylte Halmstad VBK White",
-   "us": "home"
-  },
-  {
-   "kind": "match",
-   "team": "t82397459",
-   "id": 88420361,
-   "nr": "30101303",
-   "start": 1793382300000,
-   "end": 1793385900000,
-   "hall": "Fäladshallen B",
-   "court": "1",
-   "home": {
-    "name": "Habo Wolley",
-    "teamId": 82397459
-   },
-   "away": {
-    "name": "Lunds VK",
-    "teamId": 80604870
-   },
-   "division": "Grupp A",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506470,
-     "name": "Hästhagen IF U20P",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411949,
-   "opponent": "Lunds VK",
    "us": "home"
   },
   {
@@ -2372,11 +2372,10 @@
    "kind": "match",
    "team": "t82397459",
    "id": 88943238,
-   "nr": "01111302",
-   "start": 1793527200000,
-   "end": 1793530800000,
-   "hall": "Fäladshallen B",
-   "court": "1",
+   "start": null,
+   "end": null,
+   "hall": "",
+   "court": "",
    "home": {
     "name": "Grün-Weiß Eimsbüttel",
     "teamId": 82779211
@@ -4570,7 +4569,7 @@
   },
   {
    "id": 88943721,
-   "nr": "01111303",
+   "nr": "01111302",
    "start": 1793534400000,
    "end": 1793538000000,
    "hall": "Fäladshallen B",
@@ -5137,7 +5136,7 @@
   },
   {
    "id": 88943691,
-   "nr": "01111304",
+   "nr": "01111303",
    "start": 1793538900000,
    "end": 1793542500000,
    "hall": "Fäladshallen B",
@@ -5380,7 +5379,7 @@
   },
   {
    "id": 88420365,
-   "nr": "01111305",
+   "nr": "01111304",
    "start": 1793543400000,
    "end": 1793547000000,
    "hall": "Fäladshallen B",
