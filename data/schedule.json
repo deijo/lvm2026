@@ -1,6 +1,6 @@
 {
- "changed": 1793227320342,
- "checked": 1793227320342,
+ "changed": 1793227692036,
+ "checked": 1793227692036,
  "teams": [
   {
    "key": "t82397474",
@@ -365,14 +365,7 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [
-    {
-     "id": 88506405,
-     "name": "Hylte Halmstad VBK White",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -527,43 +520,6 @@
    "categoryId": 74411950,
    "opponent": "Lunds VK DJ3",
    "us": "away"
-  },
-  {
-   "kind": "ref",
-   "team": "t82397484",
-   "id": 88944320,
-   "nr": "30102801",
-   "start": 1793372400000,
-   "end": 1793375100000,
-   "hall": "Tunaskolan",
-   "court": "2",
-   "home": {
-    "name": "Borgen VK",
-    "teamId": 87799659
-   },
-   "away": {
-    "name": "Sollentuna VK Steelwrist",
-    "teamId": 82055669
-   },
-   "division": "Grupp B",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506314,
-     "name": "Habo Wolley White",
-     "role": "Huvuddomare",
-     "ours": "t82397484"
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411948,
-   "role": "Huvuddomare"
   },
   {
    "kind": "match",
@@ -922,14 +878,7 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [
-    {
-     "id": 88505924,
-     "name": "Borgen VK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -1149,14 +1098,7 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [
-    {
-     "id": 88506405,
-     "name": "Hylte Halmstad VBK White",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -1501,43 +1443,6 @@
    "us": "home"
   },
   {
-   "kind": "ref",
-   "team": "t82397484",
-   "id": 88944317,
-   "nr": "31102800",
-   "start": 1793433600000,
-   "end": 1793436300000,
-   "hall": "Tunaskolan",
-   "court": "2",
-   "home": {
-    "name": "BSC Hanse",
-    "teamId": 82210630
-   },
-   "away": {
-    "name": "Borgen VK",
-    "teamId": 87799659
-   },
-   "division": "Grupp B",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506314,
-     "name": "Habo Wolley White",
-     "role": "Huvuddomare",
-     "ours": "t82397484"
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411948,
-   "role": "Huvuddomare"
-  },
-  {
    "kind": "match",
    "team": "t82397464",
    "id": 88880189,
@@ -1783,14 +1688,7 @@
    },
    "division": "Grupp D",
    "round": "",
-   "referees": [
-    {
-     "id": 88506550,
-     "name": "Ishøj Volley",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -1972,14 +1870,7 @@
    },
    "division": "Grupp B",
    "round": "",
-   "referees": [
-    {
-     "id": 88507142,
-     "name": "Sollentuna VK Steelwrist",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -1990,43 +1881,6 @@
    "categoryId": 74411948,
    "opponent": "BSC Hanse",
    "us": "away"
-  },
-  {
-   "kind": "ref",
-   "team": "t82397479",
-   "id": 88944370,
-   "nr": "31103003",
-   "start": 1793451600000,
-   "end": 1793454300000,
-   "hall": "Tunaskolan",
-   "court": "4",
-   "home": {
-    "name": "Södertelge VBK",
-    "teamId": 87800035
-   },
-   "away": {
-    "name": "Ishøj Volley",
-    "teamId": 82143849
-   },
-   "division": "Grupp D",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506301,
-     "name": "Habo Wolley Red",
-     "role": "Huvuddomare",
-     "ours": "t82397479"
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411948,
-   "role": "Huvuddomare"
   },
   {
    "kind": "ref",
@@ -2217,43 +2071,6 @@
    "us": "away"
   },
   {
-   "kind": "ref",
-   "team": "t82397484",
-   "id": 88944329,
-   "nr": "31102804",
-   "start": 1793455200000,
-   "end": 1793457900000,
-   "hall": "Tunaskolan",
-   "court": "2",
-   "home": {
-    "name": "Sollentuna VK Steelwrist",
-    "teamId": 82055669
-   },
-   "away": {
-    "name": "BSC Hanse",
-    "teamId": 82210630
-   },
-   "division": "Grupp B",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506314,
-     "name": "Habo Wolley White",
-     "role": "Huvuddomare",
-     "ours": "t82397484"
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411948,
-   "role": "Huvuddomare"
-  },
-  {
    "kind": "match",
    "team": "t82397479",
    "id": 88944371,
@@ -2272,14 +2089,7 @@
    },
    "division": "Grupp D",
    "round": "",
-   "referees": [
-    {
-     "id": 88507116,
-     "name": "Sollentuna VK Dignitas",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
