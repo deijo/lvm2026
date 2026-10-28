@@ -1,6 +1,6 @@
 {
- "changed": 1793226951761,
- "checked": 1793226951761,
+ "changed": 1793227135695,
+ "checked": 1793227135695,
  "teams": [
   {
    "key": "t82397474",
@@ -214,7 +214,14 @@
    },
    "division": "Grupp A",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506693,
+     "name": "Lunds VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -1251,8 +1258,8 @@
    "round": "",
    "referees": [
     {
-     "id": 88506576,
-     "name": "Kaunas SM Startas",
+     "id": 88975419,
+     "name": "Grün-Weiß Eimsbüttel",
      "role": "Huvuddomare",
      "ours": null
     }
@@ -1303,6 +1310,43 @@
    },
    "stage": "Gruppspel",
    "categoryId": 79799199,
+   "role": "Huvuddomare"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397459",
+   "id": 88943237,
+   "nr": "31101300",
+   "start": 1793431800000,
+   "end": 1793435400000,
+   "hall": "Fäladshallen B",
+   "court": "1",
+   "home": {
+    "name": "Lunds VK",
+    "teamId": 80604870
+   },
+   "away": {
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779211
+   },
+   "division": "Grupp A",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506249,
+     "name": "Habo Wolley",
+     "role": "Huvuddomare",
+     "ours": "t82397459"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411949,
    "role": "Huvuddomare"
   },
   {
@@ -1890,7 +1934,14 @@
    },
    "division": "Grupp A",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506470,
+     "name": "Hästhagen IF U20P",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -2278,6 +2329,43 @@
    "us": "away"
   },
   {
+   "kind": "ref",
+   "team": "t82397459",
+   "id": 88420352,
+   "nr": "31101304",
+   "start": 1793456100000,
+   "end": 1793459700000,
+   "hall": "Fäladshallen B",
+   "court": "1",
+   "home": {
+    "name": "Lunds VK",
+    "teamId": 80604870
+   },
+   "away": {
+    "name": "Malmö VK U20",
+    "teamId": 87818110
+   },
+   "division": "Grupp A",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506249,
+     "name": "Habo Wolley",
+     "role": "Huvuddomare",
+     "ours": "t82397459"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411949,
+   "role": "Huvuddomare"
+  },
+  {
    "kind": "match",
    "team": "t82397459",
    "id": 88420354,
@@ -2296,7 +2384,14 @@
    },
    "division": "Grupp A",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88975419,
+     "name": "Grün-Weiß Eimsbüttel",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
