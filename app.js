@@ -4,6 +4,7 @@
 
 const TZ = "Europe/Stockholm";
 const RELOAD_MINUTES = 2;
+const STALE_MINUTES = 45;
 
 const fmt = (opts) => new Intl.DateTimeFormat("sv-SE", { timeZone: TZ, ...opts });
 const fTime = fmt({ hour: "2-digit", minute: "2-digit" });
@@ -260,12 +261,22 @@ function render() {
   document.getElementById("sub").textContent =
     `Lund Volley Masters, 30 oktober – 1 november 2026. ${nTeams} lag i ${nCats} klasser.`;
 
+  // Kontrolleras normalt var tredje minut; stämpeln sparas minst var 30:e minut.
   const status = document.getElementById("status");
-  const changed = data.changed ? `${cap(fWeekday.format(data.changed))} ${fTime.format(data.changed)}` : "okänt";
-  status.textContent = state.error
-    ? `Kunde inte hämta senaste versionen. Visar schemat från ${changed}.`
-    : `Senaste ändring i turneringens schema: ${changed}. Hämtat ${fTime.format(state.loadedAt)}.`;
-  status.classList.toggle("warn", state.error);
+  const when = (t) => {
+    const sameDay = fDayKey.format(t) === fDayKey.format(Date.now());
+    return sameDay ? fTime.format(t) : `${fWeekday.format(t)} ${fTime.format(t)}`;
+  };
+  const checked = data.checked || data.changed || 0;
+  const stale = !checked || Date.now() - checked > STALE_MINUTES * 60 * 1000;
+  if (state.error) {
+    status.textContent = `Kunde inte hämta senaste versionen. Visar schemat som kontrollerades ${checked ? when(checked) : "okänt"}.`;
+  } else if (stale) {
+    status.textContent = `Schemat har inte kontrollerats mot turneringen sedan ${checked ? when(checked) : "okänt"}. Dubbelkolla tider på turneringens sida.`;
+  } else {
+    status.textContent = `Kontrollerat mot turneringen ${when(checked)}. Senaste ändring ${data.changed ? when(data.changed) : "okänt"}.`;
+  }
+  status.classList.toggle("warn", state.error || stale);
 }
 
 async function load() {

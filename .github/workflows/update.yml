@@ -1,10 +1,20 @@
 name: Uppdatera schemat
 
+# Varje körning håller igång i nästan sex timmar och kontrollerar turneringens
+# schema var tredje minut. GitHubs schemalagda starter kan dröja eller utebli,
+# så de används bara för att se till att en ny körning tar över när den gamla
+# är klar. Bara en körning åt gången; nästa väntar i kö.
+
 on:
   schedule:
-    # Var 10:e minut. GitHub kan fördröja schemalagda körningar några minuter.
-    - cron: "*/10 * * * *"
-  workflow_dispatch: {}
+    # Utanför jämna minuter, då GitHub är minst belastat.
+    - cron: "13,43 * * * *"
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: "Hur länge körningen ska hålla igång (minuter)"
+        required: false
+        default: "340"
   push:
     branches: [main]
     paths:
@@ -21,22 +31,35 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Hämta schemat från turneringen
-        run: node scripts/update.mjs
-      - name: Spara om något ändrats
+      - name: Kontrollera schemat var tredje minut
+        env:
+          MINUTES: ${{ inputs.minutes || '340' }}
         run: |
-          if git diff --quiet -- data/schedule.json; then
-            echo "Inget att spara."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/schedule.json
-          git commit -m "Uppdatera schemat"
-          git push
+          end=$((SECONDS + MINUTES * 60))
+          while true; do
+            # Hämta eventuella kodändringar så att senaste versionen av skripten används.
+            git pull --rebase --quiet origin main || git rebase --abort || true
+            if node scripts/update.mjs; then
+              if ! git diff --quiet -- data/schedule.json; then
+                git add data/schedule.json
+                git commit --quiet -m "Uppdatera schemat"
+                for i in 1 2 3; do
+                  git push --quiet origin HEAD:main && break
+                  sleep 5
+                  git pull --rebase --quiet origin main || true
+                done
+              fi
+            else
+              echo "::warning::Hämtningen misslyckades, försöker igen om tre minuter."
+            fi
+            if [ "$SECONDS" -ge "$end" ]; then break; fi
+            sleep 180
+          done
