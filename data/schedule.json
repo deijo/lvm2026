@@ -1,6 +1,6 @@
 {
- "changed": 1793228063473,
- "checked": 1793228063473,
+ "changed": 1793228249450,
+ "checked": 1793228249450,
  "teams": [
   {
    "key": "t82397474",
@@ -403,7 +403,14 @@
    },
    "division": "Grupp D",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506301,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397479"
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -414,6 +421,43 @@
    "categoryId": 74411948,
    "opponent": "Södertelge VBK",
    "us": "home"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397479",
+   "id": 88944359,
+   "nr": "30103000",
+   "start": 1793368800000,
+   "end": 1793371500000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
+   },
+   "away": {
+    "name": "Södertelge VBK",
+    "teamId": 87800035
+   },
+   "division": "Grupp D",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506301,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397479"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411948,
+   "role": "Huvuddomare"
   },
   {
    "kind": "ref",
@@ -1187,7 +1231,14 @@
    },
    "division": "Grupp D",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 89013192,
+     "name": "Organizer Club",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
