@@ -1,6 +1,6 @@
 {
- "changed": 1793222336487,
- "checked": 1793222336487,
+ "changed": 1793222523168,
+ "checked": 1793222523168,
  "teams": [
   {
    "key": "t82397474",
@@ -158,301 +158,6 @@
   }
  ],
  "events": [
-  {
-   "kind": "match",
-   "team": "t82397453",
-   "id": 88420018,
-   "start": 0,
-   "end": 2700000,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Grün-Weiß Eimsbüttel",
-    "teamId": 82779195
-   },
-   "away": {
-    "name": "Habo Wolley Red",
-    "teamId": 82397453
-   },
-   "division": "Grupp B",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506667,
-     "name": "Lunds VK Red",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "opponent": "Grün-Weiß Eimsbüttel",
-   "us": "away"
-  },
-  {
-   "kind": "match",
-   "team": "t82397453",
-   "id": 88420021,
-   "start": 0,
-   "end": 2700000,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Habo Wolley Red",
-    "teamId": 82397453
-   },
-   "away": {
-    "name": "Lunds VK Red",
-    "teamId": 80604862
-   },
-   "division": "Grupp B",
-   "round": "",
-   "referees": [
-    {
-     "id": 88507261,
-     "name": "Södertelge VBK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "opponent": "Lunds VK Red",
-   "us": "home"
-  },
-  {
-   "kind": "match",
-   "team": "t82397453",
-   "id": 88420028,
-   "start": 0,
-   "end": 2700000,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Habo Wolley Red",
-    "teamId": 82397453
-   },
-   "away": {
-    "name": "Södertelge VBK",
-    "teamId": 87800028
-   },
-   "division": "Grupp B",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506119,
-     "name": "Grün-Weiß Eimsbüttel",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "opponent": "Södertelge VBK",
-   "us": "home"
-  },
-  {
-   "kind": "match",
-   "team": "t82397448",
-   "id": 88420043,
-   "start": 0,
-   "end": 2700000,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Habo Wolley White",
-    "teamId": 82397448
-   },
-   "away": {
-    "name": "Malmö VK",
-    "teamId": 87800013
-   },
-   "division": "Grupp C",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506353,
-     "name": "Hylte Halmstad VBK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "opponent": "Malmö VK",
-   "us": "home"
-  },
-  {
-   "kind": "match",
-   "team": "t82397448",
-   "id": 88420040,
-   "start": 0,
-   "end": 2700000,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Ishøj Volley",
-    "teamId": 82143845
-   },
-   "away": {
-    "name": "Habo Wolley White",
-    "teamId": 82397448
-   },
-   "division": "Grupp C",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506932,
-     "name": "Malmö VK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "opponent": "Ishøj Volley",
-   "us": "away"
-  },
-  {
-   "kind": "match",
-   "team": "t82397448",
-   "id": 88420046,
-   "start": 0,
-   "end": 2700000,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Falkenbergs Volleybollklubb",
-    "teamId": 86166241
-   },
-   "away": {
-    "name": "Habo Wolley White",
-    "teamId": 82397448
-   },
-   "division": "Grupp C",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506537,
-     "name": "Ishøj Volley",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "opponent": "Falkenbergs Volleybollklubb",
-   "us": "away"
-  },
-  {
-   "kind": "match",
-   "team": "t82397448",
-   "id": 88420051,
-   "start": 0,
-   "end": 2700000,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Habo Wolley White",
-    "teamId": 82397448
-   },
-   "away": {
-    "name": "Solna VBK",
-    "teamId": 88101980
-   },
-   "division": "Grupp C",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506353,
-     "name": "Hylte Halmstad VBK",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "opponent": "Solna VBK",
-   "us": "home"
-  },
-  {
-   "kind": "ref",
-   "team": "t82397448",
-   "id": 88420048,
-   "start": 0,
-   "end": 2700000,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Solna VBK",
-    "teamId": 88101980
-   },
-   "away": {
-    "name": "Malmö VK",
-    "teamId": 87800013
-   },
-   "division": "Grupp C",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506223,
-     "name": "Habo Wolley White",
-     "role": "Huvuddomare",
-     "ours": "t82397448"
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411947,
-   "role": "Huvuddomare"
-  },
   {
    "kind": "match",
    "team": "t82397474",
@@ -862,6 +567,44 @@
    "us": "home"
   },
   {
+   "kind": "match",
+   "team": "t82397453",
+   "id": 88420021,
+   "nr": "30101001",
+   "start": 1793376000000,
+   "end": 1793378700000,
+   "hall": "Fäladshallen A",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397453
+   },
+   "away": {
+    "name": "Lunds VK Red",
+    "teamId": 80604862
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88507261,
+     "name": "Södertelge VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "opponent": "Lunds VK Red",
+   "us": "home"
+  },
+  {
    "kind": "ref",
    "team": "t82397469",
    "id": 88949025,
@@ -1160,6 +903,44 @@
    "categoryId": 74411949,
    "opponent": "Lunds VK",
    "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397453",
+   "id": 88420018,
+   "nr": "30101002",
+   "start": 1793383200000,
+   "end": 1793385900000,
+   "hall": "Fäladshallen A",
+   "court": "2",
+   "home": {
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779195
+   },
+   "away": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397453
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506667,
+     "name": "Lunds VK Red",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "opponent": "Grün-Weiß Eimsbüttel",
+   "us": "away"
   },
   {
    "kind": "match",
@@ -1681,6 +1462,44 @@
    "categoryId": 74411946,
    "opponent": "Sollentuna VK Originals JPG",
    "us": "away"
+  },
+  {
+   "kind": "match",
+   "team": "t82397453",
+   "id": 88420028,
+   "nr": "31101001",
+   "start": 1793440800000,
+   "end": 1793443500000,
+   "hall": "Fäladshallen A",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397453
+   },
+   "away": {
+    "name": "Södertelge VBK",
+    "teamId": 87800028
+   },
+   "division": "Grupp B",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506119,
+     "name": "Grün-Weiß Eimsbüttel",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "opponent": "Södertelge VBK",
+   "us": "home"
   },
   {
    "kind": "ref",
@@ -2397,6 +2216,190 @@
    "categoryId": 74411949,
    "opponent": "Grün-Weiß Eimsbüttel",
    "us": "away"
+  },
+  {
+   "kind": "match",
+   "team": "t82397448",
+   "id": 88420043,
+   "start": null,
+   "end": null,
+   "hall": "",
+   "court": "",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397448
+   },
+   "away": {
+    "name": "Malmö VK",
+    "teamId": 87800013
+   },
+   "division": "Grupp C",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506353,
+     "name": "Hylte Halmstad VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "opponent": "Malmö VK",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397448",
+   "id": 88420040,
+   "start": null,
+   "end": null,
+   "hall": "",
+   "court": "",
+   "home": {
+    "name": "Ishøj Volley",
+    "teamId": 82143845
+   },
+   "away": {
+    "name": "Habo Wolley White",
+    "teamId": 82397448
+   },
+   "division": "Grupp C",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506932,
+     "name": "Malmö VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "opponent": "Ishøj Volley",
+   "us": "away"
+  },
+  {
+   "kind": "match",
+   "team": "t82397448",
+   "id": 88420046,
+   "start": null,
+   "end": null,
+   "hall": "",
+   "court": "",
+   "home": {
+    "name": "Falkenbergs Volleybollklubb",
+    "teamId": 86166241
+   },
+   "away": {
+    "name": "Habo Wolley White",
+    "teamId": 82397448
+   },
+   "division": "Grupp C",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506537,
+     "name": "Ishøj Volley",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "opponent": "Falkenbergs Volleybollklubb",
+   "us": "away"
+  },
+  {
+   "kind": "match",
+   "team": "t82397448",
+   "id": 88420051,
+   "start": null,
+   "end": null,
+   "hall": "",
+   "court": "",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397448
+   },
+   "away": {
+    "name": "Solna VBK",
+    "teamId": 88101980
+   },
+   "division": "Grupp C",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506353,
+     "name": "Hylte Halmstad VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "opponent": "Solna VBK",
+   "us": "home"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397448",
+   "id": 88420048,
+   "start": null,
+   "end": null,
+   "hall": "",
+   "court": "",
+   "home": {
+    "name": "Solna VBK",
+    "teamId": 88101980
+   },
+   "away": {
+    "name": "Malmö VK",
+    "teamId": 87800013
+   },
+   "division": "Grupp C",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506223,
+     "name": "Habo Wolley White",
+     "role": "Huvuddomare",
+     "ours": "t82397448"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411947,
+   "role": "Huvuddomare"
   }
  ],
  "playoffs": [
@@ -2564,7 +2567,7 @@
   },
   {
    "id": 88420062,
-   "nr": "31100902",
+   "nr": "31100905",
    "start": 1793460600000,
    "end": 1793464200000,
    "hall": "Fäladshallen A",
@@ -2591,7 +2594,7 @@
   },
   {
    "id": 88420074,
-   "nr": "31101000",
+   "nr": "31101003",
    "start": 1793460600000,
    "end": 1793464200000,
    "hall": "Fäladshallen A",
@@ -2942,7 +2945,7 @@
   },
   {
    "id": 88420064,
-   "nr": "31100903",
+   "nr": "31100906",
    "start": 1793465100000,
    "end": 1793468700000,
    "hall": "Fäladshallen A",
@@ -2969,7 +2972,7 @@
   },
   {
    "id": 88420060,
-   "nr": "31101001",
+   "nr": "31101004",
    "start": 1793465100000,
    "end": 1793468700000,
    "hall": "Fäladshallen A",
@@ -3239,7 +3242,7 @@
   },
   {
    "id": 88420073,
-   "nr": "31101002",
+   "nr": "31101005",
    "start": 1793469600000,
    "end": 1793473200000,
    "hall": "Fäladshallen A",
@@ -3249,7 +3252,7 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31101000",
+    "name": "Vinn. 31101003",
     "teamId": null
    },
    "division": "Placering 9-12",
@@ -3515,7 +3518,7 @@
    "hall": "Fäladshallen A",
    "court": "1",
    "home": {
-    "name": "Förl. 31101001",
+    "name": "Förl. 31101004",
     "teamId": null
    },
    "away": {
@@ -3542,11 +3545,11 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "Vinn. 31101001",
+    "name": "Vinn. 31101004",
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31100902",
+    "name": "Vinn. 31100905",
     "teamId": null
    },
    "division": "Slutspel A",
@@ -3569,7 +3572,7 @@
    "hall": "Fäladshallen A",
    "court": "3",
    "home": {
-    "name": "Vinn. 31100903",
+    "name": "Vinn. 31100906",
     "teamId": null
    },
    "away": {
@@ -4271,11 +4274,11 @@
    "hall": "Fäladshallen A",
    "court": "1",
    "home": {
-    "name": "Förl. 31100902",
+    "name": "Förl. 31100905",
     "teamId": null
    },
    "away": {
-    "name": "Förl. 31100903",
+    "name": "Förl. 31100906",
     "teamId": null
    },
    "division": "Placering 5-8",
@@ -4302,7 +4305,7 @@
     "teamId": null
    },
    "away": {
-    "name": "Förl. 31101000",
+    "name": "Förl. 31101003",
     "teamId": null
    },
    "division": "Placering 13-14",
@@ -4703,7 +4706,7 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "Förl. 31101002",
+    "name": "Förl. 31101005",
     "teamId": null
    },
    "away": {
@@ -5324,7 +5327,7 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "Vinn. 31101002",
+    "name": "Vinn. 31101005",
     "teamId": null
    },
    "away": {
