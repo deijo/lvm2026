@@ -1,6 +1,6 @@
 {
- "changed": 1793229724544,
- "checked": 1793295452875,
+ "changed": 1793296003044,
+ "checked": 1793296003044,
  "teams": [
   {
    "key": "t82397474",
@@ -405,10 +405,10 @@
    "round": "",
    "referees": [
     {
-     "id": 88506301,
-     "name": "Habo Wolley Red",
+     "id": 88506431,
+     "name": "Hässleholms VK",
      "role": "Huvuddomare",
-     "ours": "t82397479"
+     "ours": null
     }
    ],
    "result": {
@@ -421,43 +421,6 @@
    "categoryId": 74411948,
    "opponent": "Södertelge VBK",
    "us": "home"
-  },
-  {
-   "kind": "ref",
-   "team": "t82397479",
-   "id": 88944359,
-   "nr": "30103000",
-   "start": 1793368800000,
-   "end": 1793371500000,
-   "hall": "Tunaskolan",
-   "court": "4",
-   "home": {
-    "name": "Habo Wolley Red",
-    "teamId": 82397479
-   },
-   "away": {
-    "name": "Södertelge VBK",
-    "teamId": 87800035
-   },
-   "division": "Grupp D",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506301,
-     "name": "Habo Wolley Red",
-     "role": "Huvuddomare",
-     "ours": "t82397479"
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411948,
-   "role": "Huvuddomare"
   },
   {
    "kind": "ref",
@@ -947,6 +910,43 @@
    "categoryId": 74411948,
    "opponent": "Hylte Halmstad VBK White",
    "us": "home"
+  },
+  {
+   "kind": "ref",
+   "team": "t82397479",
+   "id": 88944361,
+   "nr": "30103003",
+   "start": 1793379600000,
+   "end": 1793382300000,
+   "hall": "Tunaskolan",
+   "court": "4",
+   "home": {
+    "name": "Sollentuna VK Dignitas",
+    "teamId": 82055655
+   },
+   "away": {
+    "name": "Ishøj Volley",
+    "teamId": 82143849
+   },
+   "division": "Grupp D",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506301,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397479"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411948,
+   "role": "Huvuddomare"
   },
   {
    "kind": "match",
