@@ -1,6 +1,6 @@
 {
- "changed": 1793296003044,
- "checked": 1793345454703,
+ "changed": 1793346912764,
+ "checked": 1793346912764,
  "teams": [
   {
    "key": "t82397474",
@@ -1629,6 +1629,43 @@
    "us": "home"
   },
   {
+   "kind": "ref",
+   "team": "t82397474",
+   "id": 88949011,
+   "nr": "31100502",
+   "start": 1793440800000,
+   "end": 1793443500000,
+   "hall": "ISLK International School",
+   "court": "1",
+   "home": {
+    "name": "Sollentuna VK Challengers JPG",
+    "teamId": 82055629
+   },
+   "away": {
+    "name": "Engelholms VS",
+    "teamId": 88208895
+   },
+   "division": "Grupp A",
+   "round": "",
+   "referees": [
+    {
+     "id": 88506288,
+     "name": "Habo Wolley White",
+     "role": "Huvuddomare",
+     "ours": "t82397474"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Gruppspel",
+   "categoryId": 74411946,
+   "role": "Huvuddomare"
+  },
+  {
    "kind": "match",
    "team": "t82397469",
    "id": 88949032,
@@ -1892,43 +1929,6 @@
    "categoryId": 74411949,
    "opponent": "Grün-Weiß Eimsbüttel",
    "us": "away"
-  },
-  {
-   "kind": "ref",
-   "team": "t82397474",
-   "id": 88949013,
-   "nr": "31100503",
-   "start": 1793451600000,
-   "end": 1793454300000,
-   "hall": "ISLK International School",
-   "court": "1",
-   "home": {
-    "name": "Kaunas SM \"Startas\"",
-    "teamId": 86898622
-   },
-   "away": {
-    "name": "Sollentuna VK Originals JPG",
-    "teamId": 82055623
-   },
-   "division": "Grupp A",
-   "round": "",
-   "referees": [
-    {
-     "id": 88506288,
-     "name": "Habo Wolley White",
-     "role": "Huvuddomare",
-     "ours": "t82397474"
-    }
-   ],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Gruppspel",
-   "categoryId": 74411946,
-   "role": "Huvuddomare"
   },
   {
    "kind": "ref",
