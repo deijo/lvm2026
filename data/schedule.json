@@ -1,6 +1,6 @@
 {
- "changed": 1793383565675,
- "checked": 1793383565675,
+ "changed": 1793383750822,
+ "checked": 1793383750822,
  "teams": [
   {
    "key": "t82397474",
@@ -901,9 +901,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Gruppspel",
@@ -939,9 +939,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Gruppspel",
