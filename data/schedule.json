@@ -1,6 +1,6 @@
 {
- "changed": 1793385038787,
- "checked": 1793385038787,
+ "changed": 1793385224651,
+ "checked": 1793385224651,
  "teams": [
   {
    "key": "t82397474",
@@ -638,7 +638,7 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 2,
     "away": 0
