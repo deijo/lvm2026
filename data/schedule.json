@@ -1,6 +1,6 @@
 {
- "changed": 1793459538694,
- "checked": 1793459538694,
+ "changed": 1793459905025,
+ "checked": 1793459905025,
  "teams": [
   {
    "key": "t82397474",
@@ -2822,8 +2822,8 @@
    "hall": "Lerbäckshallen",
    "court": "2",
    "home": {
-    "name": "Grün-Weiß Eimsbüttel",
-    "teamId": 82779191
+    "name": "Lunds VK Red",
+    "teamId": 80604853
    },
    "away": {
     "name": "Lunds VK Black",
@@ -3151,8 +3151,8 @@
     "teamId": 87879814
    },
    "away": {
-    "name": "Lunds VK Red",
-    "teamId": 80604853
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779191
    },
    "division": "Placering 1-6",
    "round": "1/4 Final",
