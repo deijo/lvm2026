@@ -1,6 +1,6 @@
 {
- "changed": 1793394081293,
- "checked": 1793430570718,
+ "changed": 1793431302125,
+ "checked": 1793431302125,
  "teams": [
   {
    "key": "t82397474",
@@ -4624,11 +4624,11 @@
   },
   {
    "id": 88685879,
-   "nr": "01113201",
+   "nr": "01113301",
    "start": 1793525400000,
    "end": 1793529000000,
    "hall": "Vipeholmsskolan",
-   "court": "3",
+   "court": "4",
    "home": {
     "name": "Förl. 31101406",
     "teamId": null
@@ -5190,39 +5190,12 @@
    "categoryId": 74411948
   },
   {
-   "id": 88685874,
-   "nr": "01113202",
+   "id": 88418994,
+   "nr": "01113201",
    "start": 1793538000000,
    "end": 1793541600000,
    "hall": "Vipeholmsskolan",
    "court": "3",
-   "home": {
-    "name": "Förl. 31102305",
-    "teamId": null
-   },
-   "away": {
-    "name": "Förl. 31101405",
-    "teamId": null
-   },
-   "division": "Slutspel B",
-   "round": "9-10",
-   "referees": [],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Slutspel B",
-   "categoryId": 74411945
-  },
-  {
-   "id": 88418994,
-   "nr": "01113301",
-   "start": 1793538000000,
-   "end": 1793541600000,
-   "hall": "Vipeholmsskolan",
-   "court": "4",
    "home": {
     "name": "Förl. 01113300",
     "teamId": null
@@ -5241,6 +5214,33 @@
     "away": 0
    },
    "stage": "Slutspel A",
+   "categoryId": 74411945
+  },
+  {
+   "id": 88685874,
+   "nr": "01113302",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "Vipeholmsskolan",
+   "court": "4",
+   "home": {
+    "name": "Förl. 31102305",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 31101405",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "9-10",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B",
    "categoryId": 74411945
   },
   {
@@ -5730,39 +5730,12 @@
    "categoryId": 74411948
   },
   {
-   "id": 88417358,
-   "nr": "01113203",
+   "id": 88417168,
+   "nr": "01113202",
    "start": 1793543400000,
    "end": 1793547000000,
    "hall": "Vipeholmsskolan",
    "court": "3",
-   "home": {
-    "name": "Vinn. 31102305",
-    "teamId": null
-   },
-   "away": {
-    "name": "Vinn. 31101405",
-    "teamId": null
-   },
-   "division": "Slutspel B",
-   "round": "7-8",
-   "referees": [],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Slutspel B",
-   "categoryId": 74411945
-  },
-  {
-   "id": 88417168,
-   "nr": "01113302",
-   "start": 1793543400000,
-   "end": 1793547000000,
-   "hall": "Vipeholmsskolan",
-   "court": "4",
    "home": {
     "name": "Vinn. 01113300",
     "teamId": null
@@ -5781,6 +5754,33 @@
     "away": 0
    },
    "stage": "Slutspel A",
+   "categoryId": 74411945
+  },
+  {
+   "id": 88417358,
+   "nr": "01113303",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Vipeholmsskolan",
+   "court": "4",
+   "home": {
+    "name": "Vinn. 31102305",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 31101405",
+    "teamId": null
+   },
+   "division": "Slutspel B",
+   "round": "7-8",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B",
    "categoryId": 74411945
   },
   {
