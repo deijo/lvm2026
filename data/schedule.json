@@ -1,6 +1,6 @@
 {
- "changed": 1793472067976,
- "checked": 1793472067976,
+ "changed": 1793472801247,
+ "checked": 1793472801247,
  "teams": [
   {
    "key": "t82397474",
@@ -2744,9 +2744,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -2775,9 +2775,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -2924,6 +2924,37 @@
    "us": "home"
   },
   {
+   "kind": "match",
+   "team": "t82397479",
+   "id": 88944393,
+   "nr": "01112800",
+   "start": 1793520000000,
+   "end": 1793523600000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898630
+   },
+   "away": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
+   },
+   "division": "Placering 1-12",
+   "round": "Semifinal",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948,
+   "opponent": "Kaunas SM \"Startas\"",
+   "us": "away"
+  },
+  {
    "kind": "ref",
    "team": "t82397459",
    "id": 88420355,
@@ -2989,6 +3020,37 @@
    "stage": "Slutspel A",
    "categoryId": 74411946,
    "opponent": "Engelholms VS",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397484",
+   "id": 88944398,
+   "nr": "01112801",
+   "start": 1793525400000,
+   "end": 1793529000000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397484
+   },
+   "away": {
+    "name": "Sollentuna VK Fitline",
+    "teamId": 82055662
+   },
+   "division": "Placering 1-12",
+   "round": "Semifinal",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948,
+   "opponent": "Sollentuna VK Fitline",
    "us": "home"
   },
   {
@@ -4086,9 +4148,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4113,9 +4175,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4140,9 +4202,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4167,10 +4229,10 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411948
@@ -4508,12 +4570,12 @@
    "hall": "Tunaskolan",
    "court": "2",
    "home": {
-    "name": "Vinn. 31100307",
-    "teamId": null
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898630
    },
    "away": {
-    "name": "Vinn. 31102807",
-    "teamId": null
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
    },
    "division": "Placering 1-12",
    "round": "Semifinal",
@@ -4562,12 +4624,12 @@
    "hall": "Tunaskolan",
    "court": "4",
    "home": {
-    "name": "Förl. 31100307",
-    "teamId": null
+    "name": "Sollentuna VK Steelwrist",
+    "teamId": 82055669
    },
    "away": {
-    "name": "Förl. 31103007",
-    "teamId": null
+    "name": "Lunds VK DJ1",
+    "teamId": 81353324
    },
    "division": "PLacering 5-8",
    "round": "5-8",
@@ -5048,12 +5110,12 @@
    "hall": "Tunaskolan",
    "court": "2",
    "home": {
-    "name": "Vinn. 31102907",
-    "teamId": null
+    "name": "Habo Wolley White",
+    "teamId": 82397484
    },
    "away": {
-    "name": "Vinn. 31103007",
-    "teamId": null
+    "name": "Sollentuna VK Fitline",
+    "teamId": 82055662
    },
    "division": "Placering 1-12",
    "round": "Semifinal",
@@ -5075,12 +5137,12 @@
    "hall": "Tunaskolan",
    "court": "4",
    "home": {
-    "name": "Förl. 31102807",
-    "teamId": null
+    "name": "Hylte Halmstad VBK White",
+    "teamId": 88416292
    },
    "away": {
-    "name": "Förl. 31102907",
-    "teamId": null
+    "name": "Sollentuna VK Dignitas",
+    "teamId": 82055655
    },
    "division": "PLacering 5-8",
    "round": "5-8",
