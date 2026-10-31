@@ -1,6 +1,6 @@
 {
- "changed": 1793458428600,
- "checked": 1793458428600,
+ "changed": 1793458612438,
+ "checked": 1793458612438,
  "teams": [
   {
    "key": "t82397474",
@@ -2185,8 +2185,8 @@
    "result": {
     "finished": true,
     "live": false,
-    "home": 1,
-    "away": 1
+    "home": 0,
+    "away": 2
    },
    "stage": "Gruppspel",
    "categoryId": 74411945,
@@ -2345,19 +2345,19 @@
   {
    "kind": "match",
    "team": "t82397443",
-   "id": 88417359,
-   "nr": "31102305",
+   "id": 88417360,
+   "nr": "31101405",
    "start": 1793458800000,
    "end": 1793462400000,
    "hall": "Lerbäckshallen",
-   "court": "2",
+   "court": "1",
    "home": {
-    "name": "4:an i Grupp A",
-    "teamId": null
-   },
-   "away": {
     "name": "Habo Wolley",
     "teamId": 82397443
+   },
+   "away": {
+    "name": "5:an i Grupp A",
+    "teamId": null
    },
    "division": "Placering 7-10",
    "round": "7-10",
@@ -2370,8 +2370,8 @@
    },
    "stage": "Placering 7-10",
    "categoryId": 74411945,
-   "opponent": "4:an i Grupp A",
-   "us": "away"
+   "opponent": "5:an i Grupp A",
+   "us": "home"
   },
   {
    "kind": "match",
@@ -2671,8 +2671,8 @@
    "hall": "Lerbäckshallen",
    "court": "1",
    "home": {
-    "name": "Lunds VK Black",
-    "teamId": 80604858
+    "name": "Habo Wolley",
+    "teamId": 82397443
    },
    "away": {
     "name": "5:an i Grupp A",
@@ -2702,8 +2702,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Habo Wolley",
-    "teamId": 82397443
+    "name": "Lunds VK Black",
+    "teamId": 80604858
    },
    "division": "Placering 7-10",
    "round": "7-10",
@@ -2995,8 +2995,8 @@
    "hall": "Lerbäckshallen",
    "court": "1",
    "home": {
-    "name": "Hästhagen IF Kol",
-    "teamId": 87813219
+    "name": "Lyngby-Gladsaxe-Amager Eagles",
+    "teamId": 87879814
    },
    "away": {
     "name": "3:an i Grupp A",
@@ -4183,8 +4183,8 @@
    "hall": "Vipeholmsskolan",
    "court": "3",
    "home": {
-    "name": "Lyngby-Gladsaxe-Amager Eagles",
-    "teamId": 87879814
+    "name": "Hästhagen IF Kol",
+    "teamId": 87813219
    },
    "away": {
     "name": "Vinn. 31102306",
