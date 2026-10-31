@@ -1,6 +1,6 @@
 {
- "changed": 1793469867399,
- "checked": 1793471698357,
+ "changed": 1793471883205,
+ "checked": 1793471883205,
  "teams": [
   {
    "key": "t82397474",
@@ -2904,7 +2904,14 @@
    },
    "division": "Placering 5-8",
    "round": "5-8",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507222,
+     "name": "Svedala Volley",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4381,7 +4388,14 @@
    },
    "division": "Placering 9-15",
    "round": "9-12",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507077,
+     "name": "Sollentuna VK Legends JPG",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4408,7 +4422,14 @@
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506825,
+     "name": "Lunds VK Red",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4435,7 +4456,14 @@
    },
    "division": "Placering 5-8",
    "round": "5-8",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507222,
+     "name": "Svedala Volley",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
