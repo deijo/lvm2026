@@ -1,6 +1,6 @@
 {
- "changed": 1793475927966,
- "checked": 1793475927966,
+ "changed": 1793476111683,
+ "checked": 1793476111683,
  "teams": [
   {
    "key": "t82397474",
@@ -5129,14 +5129,7 @@
    },
    "division": "Placering 5-7",
    "round": "",
-   "referees": [
-    {
-     "id": 88506867,
-     "name": "Lunds VK DJ3",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
@@ -5406,14 +5399,7 @@
    },
    "division": "Placering 5-7",
    "round": "",
-   "referees": [
-    {
-     "id": 88506184,
-     "name": "Grün-Weiß Eimsbüttel",
-     "role": "Huvuddomare",
-     "ours": null
-    }
-   ],
+   "referees": [],
    "result": {
     "finished": false,
     "live": false,
