@@ -1,6 +1,6 @@
 {
- "changed": 1793472801247,
- "checked": 1793472801247,
+ "changed": 1793472987475,
+ "checked": 1793472987475,
  "teams": [
   {
    "key": "t82397474",
@@ -4121,10 +4121,10 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 79799199
@@ -4817,8 +4817,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Förl. 31102106",
-    "teamId": null
+    "name": "Sollentuna VK",
+    "teamId": 82401140
    },
    "division": "Placering 5-8",
    "round": "5-8",
@@ -4898,8 +4898,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31102106",
-    "teamId": null
+    "name": "Örkelljunga VK",
+    "teamId": 82916270
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
