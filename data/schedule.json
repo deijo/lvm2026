@@ -1,6 +1,6 @@
 {
- "changed": 1793460089189,
- "checked": 1793460089189,
+ "changed": 1793460274260,
+ "checked": 1793460274260,
  "teams": [
   {
    "key": "t82397474",
@@ -2374,6 +2374,43 @@
    "us": "home"
   },
   {
+   "kind": "ref",
+   "team": "t82397453",
+   "id": 88549921,
+   "nr": "31101105",
+   "start": 1793460600000,
+   "end": 1793464200000,
+   "hall": "Fäladshallen A",
+   "court": "3",
+   "home": {
+    "name": "Ishøj Volley",
+    "teamId": 82143845
+   },
+   "away": {
+    "name": "Malmö VK",
+    "teamId": 87800013
+   },
+   "division": "Placering 9-14",
+   "round": "9-16",
+   "referees": [
+    {
+     "id": 88506236,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397453"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B",
+   "categoryId": 74411947,
+   "role": "Huvuddomare"
+  },
+  {
    "kind": "match",
    "team": "t82397459",
    "id": 88420354,
@@ -2513,37 +2550,6 @@
   },
   {
    "kind": "match",
-   "team": "t82397464",
-   "id": 88887249,
-   "nr": "31102105",
-   "start": 1793465100000,
-   "end": 1793467800000,
-   "hall": "Heddahallen",
-   "court": "4",
-   "home": {
-    "name": "Habo Wolley",
-    "teamId": 82397464
-   },
-   "away": {
-    "name": "1:an i Grupp D",
-    "teamId": null
-   },
-   "division": "Placering 1-8",
-   "round": "1/4 Final",
-   "referees": [],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Slutspel A",
-   "categoryId": 79799199,
-   "opponent": "1:an i Grupp D",
-   "us": "home"
-  },
-  {
-   "kind": "match",
    "team": "t82397474",
    "id": 88949076,
    "nr": "31100506",
@@ -2640,6 +2646,37 @@
    "stage": "Gruppspel",
    "categoryId": 74411950,
    "role": "Huvuddomare"
+  },
+  {
+   "kind": "match",
+   "team": "t82397464",
+   "id": 88887257,
+   "nr": "31101606",
+   "start": 1793469600000,
+   "end": 1793472300000,
+   "hall": "Heddahallen",
+   "court": "3",
+   "home": {
+    "name": "Habo Wolley",
+    "teamId": 82397464
+   },
+   "away": {
+    "name": "2:an i Grupp D",
+    "teamId": null
+   },
+   "division": "Placering 1-8",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 79799199,
+   "opponent": "2:an i Grupp D",
+   "us": "home"
   },
   {
    "kind": "match",
@@ -3025,7 +3062,14 @@
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506353,
+     "name": "Hylte Halmstad VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -3052,7 +3096,14 @@
    },
    "division": "Placering 9-14",
    "round": "9-16",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506054,
+     "name": "Falkenbergs Volleybollklubb",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -3079,7 +3130,14 @@
    },
    "division": "Placering 9-14",
    "round": "9-16",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506236,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397453"
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -3367,8 +3425,8 @@
    "hall": "Bollhuset A",
    "court": "6",
    "home": {
-    "name": "Lunds VK 2",
-    "teamId": 88180374
+    "name": "Södermalms VBK",
+    "teamId": 88045203
    },
    "away": {
     "name": "3:an i Grupp D",
@@ -3502,8 +3560,8 @@
    "hall": "Heddahallen",
    "court": "4",
    "home": {
-    "name": "Habo Wolley",
-    "teamId": 82397464
+    "name": "Floby VBK",
+    "teamId": 88209321
    },
    "away": {
     "name": "1:an i Grupp D",
@@ -3637,8 +3695,8 @@
    "hall": "Bollhuset A",
    "court": "5",
    "home": {
-    "name": "Södermalms VBK",
-    "teamId": 88045203
+    "name": "Lunds VK 2",
+    "teamId": 88180374
    },
    "away": {
     "name": "4:an i Grupp D",
@@ -3745,8 +3803,8 @@
    "hall": "Heddahallen",
    "court": "3",
    "home": {
-    "name": "Floby VBK",
-    "teamId": 88209321
+    "name": "Habo Wolley",
+    "teamId": 82397464
    },
    "away": {
     "name": "2:an i Grupp D",
