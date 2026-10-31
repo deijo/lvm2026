@@ -1,6 +1,6 @@
 {
- "changed": 1793460642293,
- "checked": 1793460642293,
+ "changed": 1793460827394,
+ "checked": 1793460827394,
  "teams": [
   {
    "key": "t82397474",
@@ -2361,7 +2361,14 @@
    },
    "division": "Placering 7-10",
    "round": "7-10",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506906,
+     "name": "Lyngby-Gladsaxe-Amager Eagles",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -2909,7 +2916,14 @@
    },
    "division": "Placering 7-10",
    "round": "7-10",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506906,
+     "name": "Lyngby-Gladsaxe-Amager Eagles",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -2936,7 +2950,14 @@
    },
    "division": "Placering 7-10",
    "round": "7-10",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507010,
+     "name": "Sollentuna VK Legends",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -3460,8 +3481,8 @@
     "teamId": 87846811
    },
    "away": {
-    "name": "4:an i Grupp B",
-    "teamId": null
+    "name": "Hästhagen IF",
+    "teamId": 87318978
    },
    "division": "Placering 9-16",
    "round": "9-16",
@@ -3595,8 +3616,8 @@
     "teamId": 84980704
    },
    "away": {
-    "name": "2:an i Grupp B",
-    "teamId": null
+    "name": "Uppsala VBS Blue",
+    "teamId": 88180315
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -3791,8 +3812,8 @@
     "teamId": 88045612
    },
    "away": {
-    "name": "3:an i Grupp B",
-    "teamId": null
+    "name": "Malmö VK",
+    "teamId": 84425215
    },
    "division": "Placering 9-16",
    "round": "9-16",
@@ -3895,8 +3916,8 @@
    "hall": "Heddahallen",
    "court": "4",
    "home": {
-    "name": "1:an i Grupp B",
-    "teamId": null
+    "name": "Sollentuna VK",
+    "teamId": 82401140
    },
    "away": {
     "name": "Örkelljunga VK",
@@ -4570,8 +4591,8 @@
    "hall": "Bollhuset A",
    "court": "6",
    "home": {
-    "name": "5:an i Grupp B",
-    "teamId": null
+    "name": "Majorna VBK",
+    "teamId": 87903152
    },
    "away": {
     "name": "Allstar Owls (Vineta-Audorf)",
