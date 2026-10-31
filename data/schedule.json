@@ -1,6 +1,6 @@
 {
- "changed": 1793434597245,
- "checked": 1793434597245,
+ "changed": 1793434781977,
+ "checked": 1793434781977,
  "teams": [
   {
    "key": "t82397474",
@@ -5636,7 +5636,7 @@
     "name": "2:an i Grupp A",
     "teamId": null
    },
-   "division": "Fianl",
+   "division": "Final",
    "round": "Final",
    "referees": [],
    "result": {
@@ -5645,7 +5645,7 @@
     "home": 0,
     "away": 0
    },
-   "stage": "Fianl",
+   "stage": "Final",
    "categoryId": 74411950
   },
   {
