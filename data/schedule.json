@@ -1,6 +1,6 @@
 {
- "changed": 1793476296726,
- "checked": 1793476296726,
+ "changed": 1793476482164,
+ "checked": 1793476482164,
  "teams": [
   {
    "key": "t82397474",
@@ -4096,10 +4096,10 @@
    "round": "9-16",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -4332,8 +4332,8 @@
     "teamId": 82779199
    },
    "away": {
-    "name": "Vinn. 31101806",
-    "teamId": null
+    "name": "Vingåkers VBK",
+    "teamId": 88045612
    },
    "division": "Placering 9-16",
    "round": "9-12",
@@ -4874,7 +4874,14 @@
    },
    "division": "Placering 1-6",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506041,
+     "name": "Falkenbergs Volleybollklubb",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4901,7 +4908,14 @@
    },
    "division": "Placering 1-6",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506106,
+     "name": "Grün-Weiß Eimsbüttel",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4923,8 +4937,8 @@
     "teamId": 88180374
    },
    "away": {
-    "name": "Förl. 31101806",
-    "teamId": null
+    "name": "Malmö VK",
+    "teamId": 84425215
    },
    "division": "Placering 13-16",
    "round": "13-16",
