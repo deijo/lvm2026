@@ -1,6 +1,6 @@
 {
- "changed": 1793475194140,
- "checked": 1793475194140,
+ "changed": 1793475927966,
+ "checked": 1793475927966,
  "teams": [
   {
    "key": "t82397474",
@@ -4717,7 +4717,14 @@
    },
    "division": "Placering 5-7",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88505937,
+     "name": "Borgen VK BorgenMasters",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -5122,7 +5129,14 @@
    },
    "division": "Placering 5-7",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506867,
+     "name": "Lunds VK DJ3",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -5392,7 +5406,14 @@
    },
    "division": "Placering 5-7",
    "round": "",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506184,
+     "name": "Grün-Weiß Eimsbüttel",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
