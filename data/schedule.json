@@ -1,6 +1,6 @@
 {
- "changed": 1793459353363,
- "checked": 1793459353363,
+ "changed": 1793459538694,
+ "checked": 1793459538694,
  "teams": [
   {
    "key": "t82397474",
@@ -2356,8 +2356,8 @@
     "teamId": 82397443
    },
    "away": {
-    "name": "5:an i Grupp A",
-    "teamId": null
+    "name": "Hästhagen IF Väte",
+    "teamId": 87813224
    },
    "division": "Placering 7-10",
    "round": "7-10",
@@ -2370,7 +2370,7 @@
    },
    "stage": "Placering 7-10",
    "categoryId": 74411945,
-   "opponent": "5:an i Grupp A",
+   "opponent": "Hästhagen IF Väte",
    "us": "home"
   },
   {
@@ -2799,8 +2799,8 @@
     "teamId": 82397443
    },
    "away": {
-    "name": "5:an i Grupp A",
-    "teamId": null
+    "name": "Hästhagen IF Väte",
+    "teamId": 87813224
    },
    "division": "Placering 7-10",
    "round": "7-10",
@@ -2822,8 +2822,8 @@
    "hall": "Lerbäckshallen",
    "court": "2",
    "home": {
-    "name": "4:an i Grupp A",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779191
    },
    "away": {
     "name": "Lunds VK Black",
@@ -2960,7 +2960,14 @@
    },
    "division": "Placering 1-12",
    "round": "1/8 Final",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88505950,
+     "name": "BSC Hanse",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -3144,8 +3151,8 @@
     "teamId": 87879814
    },
    "away": {
-    "name": "3:an i Grupp A",
-    "teamId": null
+    "name": "Lunds VK Red",
+    "teamId": 80604853
    },
    "division": "Placering 1-6",
    "round": "1/4 Final",
@@ -3167,8 +3174,8 @@
    "hall": "Lerbäckshallen",
    "court": "2",
    "home": {
-    "name": "2:an i Grupp A",
-    "teamId": null
+    "name": "Sollentuna VK Legends",
+    "teamId": 82210976
    },
    "away": {
     "name": "Falkenbergs Volleybollklubb",
@@ -4355,8 +4362,8 @@
    "hall": "Vipeholmsskolan",
    "court": "4",
    "home": {
-    "name": "1:an i Grupp A",
-    "teamId": null
+    "name": "Engelholms VS",
+    "teamId": 87318782
    },
    "away": {
     "name": "Vinn. 31101406",
