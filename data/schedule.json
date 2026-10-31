@@ -1,6 +1,6 @@
 {
- "changed": 1793466521679,
- "checked": 1793466521679,
+ "changed": 1793466707102,
+ "checked": 1793466707102,
  "teams": [
   {
    "key": "t82397474",
@@ -2445,10 +2445,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "stage": "Gruppspel",
    "categoryId": 74411949,
@@ -3824,10 +3824,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411946
@@ -4364,8 +4364,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Förl. 31100800",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 87528569
    },
    "division": "Placering 5-8",
    "round": "5-8",
@@ -4823,8 +4823,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31100800",
-    "teamId": null
+    "name": "Engelholms VS",
+    "teamId": 88208895
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
