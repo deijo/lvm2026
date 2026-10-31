@@ -1,6 +1,6 @@
 {
- "changed": 1793468575047,
- "checked": 1793468575047,
+ "changed": 1793468760064,
+ "checked": 1793468760064,
  "teams": [
   {
    "key": "t82397474",
@@ -2607,9 +2607,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -2890,6 +2890,37 @@
    "stage": "Gruppspel",
    "categoryId": 74411949,
    "role": "Huvuddomare"
+  },
+  {
+   "kind": "match",
+   "team": "t82397469",
+   "id": 88949079,
+   "nr": "01110601",
+   "start": 1793524500000,
+   "end": 1793528100000,
+   "hall": "ISLK International School",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397469
+   },
+   "away": {
+    "name": "Engelholms VS",
+    "teamId": 88208895
+   },
+   "division": "Placering 1-8",
+   "round": "Semifinal",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411946,
+   "opponent": "Engelholms VS",
+   "us": "home"
   },
   {
    "kind": "match",
@@ -3736,9 +3767,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -3763,9 +3794,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4310,8 +4341,8 @@
     "teamId": 86898622
    },
    "away": {
-    "name": "Vinn. 31100606",
-    "teamId": null
+    "name": "Sollentuna VK Top Fuel",
+    "teamId": 82055639
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
@@ -4765,8 +4796,8 @@
    "hall": "ISLK International School",
    "court": "2",
    "home": {
-    "name": "Vinn. 31100706",
-    "teamId": null
+    "name": "Habo Wolley Red",
+    "teamId": 82397469
    },
    "away": {
     "name": "Engelholms VS",
@@ -4792,12 +4823,12 @@
    "hall": "ISLK International School",
    "court": "3",
    "home": {
-    "name": "Förl. 31100606",
-    "teamId": null
+    "name": "Lunds VK Red",
+    "teamId": 80604878
    },
    "away": {
-    "name": "Förl. 31100706",
-    "teamId": null
+    "name": "Svedala Volley",
+    "teamId": 82077470
    },
    "division": "Placering 5-8",
    "round": "5-8",
@@ -4809,6 +4840,33 @@
     "away": 0
    },
    "stage": "Slutspel A",
+   "categoryId": 74411946
+  },
+  {
+   "id": 89196316,
+   "nr": "01110800",
+   "start": 1793524500000,
+   "end": 1793528100000,
+   "hall": "ISLK International School",
+   "court": "4",
+   "home": {
+    "name": "Sollentuna VK Legends JPG",
+    "teamId": 82055634
+   },
+   "away": {
+    "name": "Falkenbergs Volleybollklubb",
+    "teamId": 87445158
+   },
+   "division": "Placering 13-14",
+   "round": "13-14",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B",
    "categoryId": 74411946
   },
   {
@@ -6187,32 +6245,6 @@
    },
    "stage": "Slutspel A",
    "categoryId": 79799199
-  },
-  {
-   "id": 89196316,
-   "start": null,
-   "end": null,
-   "hall": "",
-   "court": "",
-   "home": {
-    "name": "Sollentuna VK Legends JPG",
-    "teamId": 82055634
-   },
-   "away": {
-    "name": "Falkenbergs Volleybollklubb",
-    "teamId": 87445158
-   },
-   "division": "Placering 13-14",
-   "round": "13-14",
-   "referees": [],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Slutspel B",
-   "categoryId": 74411946
   }
  ]
 }
