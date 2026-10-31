@@ -1,6 +1,6 @@
 {
- "changed": 1793431302125,
- "checked": 1793431302125,
+ "changed": 1793431668766,
+ "checked": 1793431668766,
  "teams": [
   {
    "key": "t82397474",
@@ -4542,33 +4542,6 @@
    "categoryId": 74411948
   },
   {
-   "id": 88944660,
-   "nr": "01112901",
-   "start": 1793525400000,
-   "end": 1793529000000,
-   "hall": "Tunaskolan",
-   "court": "3",
-   "home": {
-    "name": "Förl. 31102807",
-    "teamId": null
-   },
-   "away": {
-    "name": "Förl. 31102907",
-    "teamId": null
-   },
-   "division": "PLacering 5-8",
-   "round": "5-8",
-   "referees": [],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Slutspel A",
-   "categoryId": 74411948
-  },
-  {
    "id": 88944740,
    "nr": "01110401",
    "start": 1793525400000,
@@ -5071,33 +5044,6 @@
    },
    "division": "Slutspel A",
    "round": "Bronsmatch",
-   "referees": [],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Slutspel A",
-   "categoryId": 74411948
-  },
-  {
-   "id": 88944663,
-   "nr": "01112902",
-   "start": 1793538000000,
-   "end": 1793541600000,
-   "hall": "Tunaskolan",
-   "court": "3",
-   "home": {
-    "name": "Förl. 01112900",
-    "teamId": null
-   },
-   "away": {
-    "name": "Förl. 01112901",
-    "teamId": null
-   },
-   "division": "PLacering 5-8",
-   "round": "7-8",
    "referees": [],
    "result": {
     "finished": false,
@@ -5622,33 +5568,6 @@
    "categoryId": 74411948
   },
   {
-   "id": 88944655,
-   "nr": "01112903",
-   "start": 1793543400000,
-   "end": 1793547000000,
-   "hall": "Tunaskolan",
-   "court": "3",
-   "home": {
-    "name": "Vinn. 01112900",
-    "teamId": null
-   },
-   "away": {
-    "name": "Vinn. 01112901",
-    "teamId": null
-   },
-   "division": "PLacering 5-8",
-   "round": "5-6",
-   "referees": [],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Slutspel A",
-   "categoryId": 74411948
-  },
-  {
    "id": 88833112,
    "nr": "01113004",
    "start": 1793543400000,
@@ -5809,6 +5728,87 @@
    },
    "stage": "Slutspel A",
    "categoryId": 79799199
+  },
+  {
+   "id": 88944660,
+   "nr": "01112901",
+   "start": 1793554500000,
+   "end": 1793558100000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Förl. 31102807",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 31102907",
+    "teamId": null
+   },
+   "division": "PLacering 5-8",
+   "round": "5-8",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948
+  },
+  {
+   "id": 88944663,
+   "nr": "01112902",
+   "start": 1793559000000,
+   "end": 1793562600000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Förl. 01112900",
+    "teamId": null
+   },
+   "away": {
+    "name": "Förl. 01112901",
+    "teamId": null
+   },
+   "division": "PLacering 5-8",
+   "round": "7-8",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948
+  },
+  {
+   "id": 88944655,
+   "nr": "01112903",
+   "start": 1793563500000,
+   "end": 1793567100000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Vinn. 01112900",
+    "teamId": null
+   },
+   "away": {
+    "name": "Vinn. 01112901",
+    "teamId": null
+   },
+   "division": "PLacering 5-8",
+   "round": "5-6",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948
   }
  ]
 }
