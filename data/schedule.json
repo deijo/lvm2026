@@ -1,6 +1,6 @@
 {
- "changed": 1793476111683,
- "checked": 1793476111683,
+ "changed": 1793476296726,
+ "checked": 1793476296726,
  "teams": [
   {
    "key": "t82397474",
@@ -2956,7 +2956,14 @@
    },
    "division": "Placering 1-12",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507129,
+     "name": "Sollentuna VK Fitline",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4663,7 +4670,14 @@
    },
    "division": "Placering 9-12",
    "round": "9-12",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506854,
+     "name": "Lunds VK DJ2",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4690,7 +4704,14 @@
    },
    "division": "Placering 1-12",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507129,
+     "name": "Sollentuna VK Fitline",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4751,7 +4772,14 @@
    },
    "division": "PLacering 5-8",
    "round": "5-8",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506405,
+     "name": "Hylte Halmstad VBK White",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4778,7 +4806,14 @@
    },
    "division": "Placering 17-20",
    "round": "17-20",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506550,
+     "name": "Ishøj Volley",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4805,7 +4840,14 @@
    },
    "division": "Placering 13-20",
    "round": "13-16",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506392,
+     "name": "Hylte Halmstad VBK Black",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
