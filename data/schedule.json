@@ -1,6 +1,6 @@
 {
- "changed": 1793461382192,
- "checked": 1793461382192,
+ "changed": 1793461566873,
+ "checked": 1793461566873,
  "teams": [
   {
    "key": "t82397474",
@@ -4115,7 +4115,14 @@
    },
    "division": "Placering 17-20",
    "round": "17-20",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88505898,
+     "name": "Allstar Owls (Vineta-Audorf)",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
