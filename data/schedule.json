@@ -1,6 +1,6 @@
 {
- "changed": 1793473722010,
- "checked": 1793473722010,
+ "changed": 1793474089266,
+ "checked": 1793474089266,
  "teams": [
   {
    "key": "t82397474",
@@ -4071,10 +4071,10 @@
    "round": "9-12",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel B",
    "categoryId": 74411947
@@ -5519,8 +5519,8 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "Förl. 31101005",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779195
    },
    "away": {
     "name": "Ishøj Volley",
@@ -6113,8 +6113,8 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "Vinn. 31101005",
-    "teamId": null
+    "name": "Lunds VK Red",
+    "teamId": 80604862
    },
    "away": {
     "name": "Lunds VK Black",
