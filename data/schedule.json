@@ -1,6 +1,6 @@
 {
- "changed": 1793458612438,
- "checked": 1793458612438,
+ "changed": 1793458797292,
+ "checked": 1793458797292,
  "teams": [
   {
    "key": "t82397474",
@@ -2070,10 +2070,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Gruppspel",
    "categoryId": 74411947,
@@ -2258,9 +2258,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Gruppspel",
@@ -2295,10 +2295,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Gruppspel",
    "categoryId": 74411948,
@@ -2451,6 +2451,68 @@
   },
   {
    "kind": "match",
+   "team": "t82397448",
+   "id": 88420060,
+   "nr": "31101004",
+   "start": 1793465100000,
+   "end": 1793468700000,
+   "hall": "Fäladshallen A",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397448
+   },
+   "away": {
+    "name": "Falkenbergs Volleybollklubb",
+    "teamId": 86166241
+   },
+   "division": "Placering 1-8",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411947,
+   "opponent": "Falkenbergs Volleybollklubb",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397453",
+   "id": 88420065,
+   "nr": "31101106",
+   "start": 1793465100000,
+   "end": 1793468700000,
+   "hall": "Fäladshallen A",
+   "court": "3",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397453
+   },
+   "away": {
+    "name": "Södertelge VBK",
+    "teamId": 87800028
+   },
+   "division": "Placering 1-8",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411947,
+   "opponent": "Södertelge VBK",
+   "us": "home"
+  },
+  {
+   "kind": "match",
    "team": "t82397474",
    "id": 88949076,
    "nr": "31100506",
@@ -2584,6 +2646,68 @@
    "stage": "Gruppspel",
    "categoryId": 74411950,
    "opponent": "Borgen VK BorgenMasters",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397479",
+   "id": 88944396,
+   "nr": "31102807",
+   "start": 1793469600000,
+   "end": 1793473200000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
+   },
+   "away": {
+    "name": "Vinn. 31102805",
+    "teamId": null
+   },
+   "division": "Placering 1-12",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948,
+   "opponent": "Vinn. 31102805",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397484",
+   "id": 88944399,
+   "nr": "31102907",
+   "start": 1793469600000,
+   "end": 1793473200000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397484
+   },
+   "away": {
+    "name": "Vinn. 31102905",
+    "teamId": null
+   },
+   "division": "Placering 1-12",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948,
+   "opponent": "Vinn. 31102905",
    "us": "home"
   },
   {
@@ -2725,12 +2849,12 @@
    "hall": "Tunaskolan",
    "court": "1",
    "home": {
-    "name": "2:an i Grupp C",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779207
    },
    "away": {
-    "name": "Bästa 3:an",
-    "teamId": null
+    "name": "Sollentuna VK Steelwrist",
+    "teamId": 82055669
    },
    "division": "Placering 1-12",
    "round": "1/8 Final",
@@ -2752,12 +2876,12 @@
    "hall": "Tunaskolan",
    "court": "2",
    "home": {
-    "name": "2:an i Grupp B",
-    "teamId": null
+    "name": "Hylte Halmstad VBK White",
+    "teamId": 88416292
    },
    "away": {
-    "name": "4:e bästa 3:an",
-    "teamId": null
+    "name": "Lunds VK DJ2",
+    "teamId": 81353328
    },
    "division": "Placering 1-12",
    "round": "1/8 Final",
@@ -2779,12 +2903,12 @@
    "hall": "Tunaskolan",
    "court": "3",
    "home": {
-    "name": "2:an i Grupp D",
-    "teamId": null
+    "name": "Sollentuna VK Dignitas",
+    "teamId": 82055655
    },
    "away": {
-    "name": "2:a bästa 3:an",
-    "teamId": null
+    "name": "Södertelge VBK",
+    "teamId": 87800035
    },
    "division": "Placering 1-12",
    "round": "1/8 Final",
@@ -2806,12 +2930,12 @@
    "hall": "Tunaskolan",
    "court": "4",
    "home": {
-    "name": "2:an i Grupp A",
-    "teamId": null
+    "name": "Sollentuna VK Fitline",
+    "teamId": 82055662
    },
    "away": {
-    "name": "3:e bästa 3:an",
-    "teamId": null
+    "name": "Eneryda Volley",
+    "teamId": 88077924
    },
    "division": "Placering 1-12",
    "round": "1/8 Final",
@@ -2833,12 +2957,12 @@
    "hall": "Fäladshallen A",
    "court": "1",
    "home": {
-    "name": "Bästa 2:an",
-    "teamId": null
+    "name": "Sollentuna VK SVK PU18:1",
+    "teamId": 82055603
    },
    "away": {
-    "name": "2:a bästa 2:an",
-    "teamId": null
+    "name": "Solna VBK",
+    "teamId": 88101980
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -2860,12 +2984,12 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "3:e bästa 4:an",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779195
    },
    "away": {
-    "name": "Bästa 5:an",
-    "teamId": null
+    "name": "Täby volley",
+    "teamId": 88078015
    },
    "division": "Placering 9-14",
    "round": "9-16",
@@ -2887,12 +3011,12 @@
    "hall": "Fäladshallen A",
    "court": "3",
    "home": {
-    "name": "2:a bästa 4:an",
-    "teamId": null
+    "name": "Ishøj Volley",
+    "teamId": 82143845
    },
    "away": {
-    "name": "2:a bästa 5:an",
-    "teamId": null
+    "name": "Malmö VK",
+    "teamId": 87800013
    },
    "division": "Placering 9-14",
    "round": "9-16",
@@ -3049,12 +3173,12 @@
    "hall": "Tunaskolan",
    "court": "1",
    "home": {
-    "name": "Bästa 4:an",
-    "teamId": null
+    "name": "Hästhagen IF",
+    "teamId": 87813198
    },
    "away": {
-    "name": "4:e bästa 5:an",
-    "teamId": null
+    "name": "Borgen VK",
+    "teamId": 87799659
    },
    "division": "Placering 13-20",
    "round": "13-20",
@@ -3076,12 +3200,12 @@
    "hall": "Tunaskolan",
    "court": "2",
    "home": {
-    "name": "4:e bästa 4:an",
-    "teamId": null
+    "name": "Ishøj Volley",
+    "teamId": 82143849
    },
    "away": {
-    "name": "Bästa 5:an",
-    "teamId": null
+    "name": "Hakefjorden VK",
+    "teamId": 80663081
    },
    "division": "Placering 13-20",
    "round": "13-20",
@@ -3103,12 +3227,12 @@
    "hall": "Tunaskolan",
    "court": "3",
    "home": {
-    "name": "2:a bästa 4:an",
-    "teamId": null
+    "name": "Hylte Halmstad VBK Black",
+    "teamId": 88416288
    },
    "away": {
-    "name": "3:e bästa 5:an",
-    "teamId": null
+    "name": "Kronan VBK",
+    "teamId": 87903146
    },
    "division": "Placering 13-20",
    "round": "13-20",
@@ -3130,12 +3254,12 @@
    "hall": "Tunaskolan",
    "court": "4",
    "home": {
-    "name": "3:e bästa 4:an",
-    "teamId": null
+    "name": "BSC Hanse",
+    "teamId": 82210630
    },
    "away": {
-    "name": "2:a bästa 5:an",
-    "teamId": null
+    "name": "Hässleholms VK",
+    "teamId": 87799863
    },
    "division": "Placering 13-20",
    "round": "13-20",
@@ -3211,12 +3335,12 @@
    "hall": "Fäladshallen A",
    "court": "1",
    "home": {
-    "name": "2:a bästa 1:an",
-    "teamId": null
+    "name": "Engelholms VS 1",
+    "teamId": 86988570
    },
    "away": {
-    "name": "Bästa 3:an",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 87640643
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -3238,12 +3362,12 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "Bästa 1:an",
-    "teamId": null
+    "name": "Habo Wolley White",
+    "teamId": 82397448
    },
    "away": {
-    "name": "2:a bästa 3:an",
-    "teamId": null
+    "name": "Falkenbergs Volleybollklubb",
+    "teamId": 86166241
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -3265,12 +3389,12 @@
    "hall": "Fäladshallen A",
    "court": "3",
    "home": {
-    "name": "3:e bästa 1:an",
-    "teamId": null
+    "name": "Habo Wolley Red",
+    "teamId": 82397453
    },
    "away": {
-    "name": "3:e bästa 2:an",
-    "teamId": null
+    "name": "Södertelge VBK",
+    "teamId": 87800028
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -3508,8 +3632,8 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "3:e bästa 3:an",
-    "teamId": null
+    "name": "Lunds VK Red",
+    "teamId": 80604862
    },
    "away": {
     "name": "Vinn. 31101003",
@@ -3535,8 +3659,8 @@
    "hall": "Fäladshallen A",
    "court": "3",
    "home": {
-    "name": "Bästa 4:an",
-    "teamId": null
+    "name": "Lunds VK Black",
+    "teamId": 80604866
    },
    "away": {
     "name": "Vinn. 31101105",
@@ -3616,8 +3740,8 @@
    "hall": "Tunaskolan",
    "court": "1",
    "home": {
-    "name": "1:an i Grupp A",
-    "teamId": null
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898630
    },
    "away": {
     "name": "Vinn. 31100305",
@@ -3643,8 +3767,8 @@
    "hall": "Tunaskolan",
    "court": "2",
    "home": {
-    "name": "1:an i Grupp D",
-    "teamId": null
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
    },
    "away": {
     "name": "Vinn. 31102805",
@@ -3670,8 +3794,8 @@
    "hall": "Tunaskolan",
    "court": "3",
    "home": {
-    "name": "1:an i Grupp B",
-    "teamId": null
+    "name": "Habo Wolley White",
+    "teamId": 82397484
    },
    "away": {
     "name": "Vinn. 31102905",
@@ -3697,8 +3821,8 @@
    "hall": "Tunaskolan",
    "court": "4",
    "home": {
-    "name": "1:an i Grupp C",
-    "teamId": null
+    "name": "Lunds VK DJ1",
+    "teamId": 81353324
    },
    "away": {
     "name": "Vinn. 31103005",
