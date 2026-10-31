@@ -1,6 +1,6 @@
 {
- "changed": 1793460827394,
- "checked": 1793460827394,
+ "changed": 1793461012652,
+ "checked": 1793461012652,
  "teams": [
   {
    "key": "t82397474",
@@ -2705,8 +2705,8 @@
     "teamId": 82397464
    },
    "away": {
-    "name": "2:an i Grupp D",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 86766039
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -2719,7 +2719,7 @@
    },
    "stage": "Slutspel A",
    "categoryId": 79799199,
-   "opponent": "2:an i Grupp D",
+   "opponent": "Hylte Halmstad VBK",
    "us": "home"
   },
   {
@@ -3508,8 +3508,8 @@
     "teamId": 88045203
    },
    "away": {
-    "name": "3:an i Grupp D",
-    "teamId": null
+    "name": "Engelholms VS",
+    "teamId": 87183460
    },
    "division": "Placering 9-16",
    "round": "9-16",
@@ -3643,8 +3643,8 @@
     "teamId": 88209321
    },
    "away": {
-    "name": "1:an i Grupp D",
-    "teamId": null
+    "name": "Lunds VK 1",
+    "teamId": 80604874
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -3785,8 +3785,8 @@
     "teamId": 88180374
    },
    "away": {
-    "name": "4:an i Grupp D",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779199
    },
    "division": "Placering 9-16",
    "round": "9-16",
@@ -3893,8 +3893,8 @@
     "teamId": 82397464
    },
    "away": {
-    "name": "2:an i Grupp D",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 86766039
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -4082,8 +4082,8 @@
     "teamId": 88102622
    },
    "away": {
-    "name": "5:an i Grupp D",
-    "teamId": null
+    "name": "Värnamo VBA SM",
+    "teamId": 88180331
    },
    "division": "Placering 17-20",
    "round": "17-20",
