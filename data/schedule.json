@@ -1,6 +1,6 @@
 {
- "changed": 1793432408470,
- "checked": 1793432408470,
+ "changed": 1793432592976,
+ "checked": 1793432592976,
  "teams": [
   {
    "key": "t82397474",
@@ -2639,7 +2639,7 @@
     "name": "Bästa 3:an",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "1/8 Final",
    "referees": [],
    "result": {
@@ -2666,7 +2666,7 @@
     "name": "4:e bästa 3:an",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "1/8 Final",
    "referees": [],
    "result": {
@@ -2693,7 +2693,7 @@
     "name": "2:a bästa 3:an",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "1/8 Final",
    "referees": [],
    "result": {
@@ -2720,7 +2720,7 @@
     "name": "3:e bästa 3:an",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "1/8 Final",
    "referees": [],
    "result": {
@@ -2963,7 +2963,7 @@
     "name": "4:e bästa 5:an",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Placering 13-20",
    "round": "13-20",
    "referees": [],
    "result": {
@@ -2990,7 +2990,7 @@
     "name": "Bästa 5:an",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Placering 13-20",
    "round": "13-20",
    "referees": [],
    "result": {
@@ -3017,7 +3017,7 @@
     "name": "3:e bästa 5:an",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Placering 13-20",
    "round": "13-20",
    "referees": [],
    "result": {
@@ -3044,7 +3044,7 @@
     "name": "2:a bästa 5:an",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Placering 13-20",
    "round": "13-20",
    "referees": [],
    "result": {
@@ -3530,7 +3530,7 @@
     "name": "Vinn. 31100305",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "1/4 Final",
    "referees": [],
    "result": {
@@ -3557,7 +3557,7 @@
     "name": "Vinn. 31102805",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "1/4 Final",
    "referees": [],
    "result": {
@@ -3584,7 +3584,7 @@
     "name": "Vinn. 31102905",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "1/4 Final",
    "referees": [],
    "result": {
@@ -3611,7 +3611,7 @@
     "name": "Vinn. 31103005",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "1/4 Final",
    "referees": [],
    "result": {
@@ -3962,7 +3962,7 @@
     "name": "Vinn. 31102807",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "Semifinal",
    "referees": [],
    "result": {
@@ -3989,7 +3989,7 @@
     "name": "5:an i Grupp A",
     "teamId": null
    },
-   "division": "Final games",
+   "division": "Placering 5-7",
    "round": "",
    "referees": [],
    "result": {
@@ -4070,7 +4070,7 @@
     "name": "Vinn. 31102806",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Placering 13-20",
    "round": "13-16",
    "referees": [],
    "result": {
@@ -4421,7 +4421,7 @@
     "name": "6:an i Grupp A",
     "teamId": null
    },
-   "division": "Final games",
+   "division": "Placering 5-7",
    "round": "",
    "referees": [],
    "result": {
@@ -4529,7 +4529,7 @@
     "name": "Vinn. 31103007",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "Semifinal",
    "referees": [],
    "result": {
@@ -4610,7 +4610,7 @@
     "name": "Vinn. 31103006",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Placering 13-20",
    "round": "13-16",
    "referees": [],
    "result": {
@@ -4664,7 +4664,7 @@
     "name": "7:an i Grupp A",
     "teamId": null
    },
-   "division": "Final games",
+   "division": "Placering 5-7",
    "round": "",
    "referees": [],
    "result": {
@@ -5069,7 +5069,7 @@
     "name": "Förl. 01112801",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "Bronsmatch",
    "referees": [],
    "result": {
@@ -5096,7 +5096,7 @@
     "name": "4:an i Grupp A",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Bronze game",
    "round": "3-4",
    "referees": [],
    "result": {
@@ -5177,7 +5177,7 @@
     "name": "Förl. 01113101",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Placering 13-20",
    "round": "15-16",
    "referees": [],
    "result": {
@@ -5609,7 +5609,7 @@
     "name": "Vinn. 01112801",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Placering 1-12",
    "round": "Final",
    "referees": [],
    "result": {
@@ -5636,7 +5636,7 @@
     "name": "2:an i Grupp A",
     "teamId": null
    },
-   "division": "Slutspel A",
+   "division": "Fianl",
    "round": "Final",
    "referees": [],
    "result": {
@@ -5645,7 +5645,7 @@
     "home": 0,
     "away": 0
    },
-   "stage": "Slutspel A",
+   "stage": "Fianl",
    "categoryId": 74411950
   },
   {
@@ -5717,7 +5717,7 @@
     "name": "Vinn. 01113101",
     "teamId": null
    },
-   "division": "Slutspel B",
+   "division": "Placering 13-20",
    "round": "13-14",
    "referees": [],
    "result": {
