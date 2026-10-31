@@ -1,6 +1,6 @@
 {
- "changed": 1793471883205,
- "checked": 1793471883205,
+ "changed": 1793472067976,
+ "checked": 1793472067976,
  "teams": [
   {
    "key": "t82397474",
@@ -4933,33 +4933,6 @@
    "categoryId": 74411946
   },
   {
-   "id": 89196316,
-   "nr": "01110800",
-   "start": 1793524500000,
-   "end": 1793528100000,
-   "hall": "ISLK International School",
-   "court": "4",
-   "home": {
-    "name": "Sollentuna VK Legends JPG",
-    "teamId": 82055634
-   },
-   "away": {
-    "name": "Falkenbergs Volleybollklubb",
-    "teamId": 87445158
-   },
-   "division": "Placering 13-14",
-   "round": "13-14",
-   "referees": [],
-   "result": {
-    "finished": false,
-    "live": false,
-    "home": 0,
-    "away": 0
-   },
-   "stage": "Slutspel B",
-   "categoryId": 74411946
-  },
-  {
    "id": 88834075,
    "nr": "01112901",
    "start": 1793524500000,
@@ -5201,6 +5174,33 @@
    },
    "stage": "Slutspel A",
    "categoryId": 74411945
+  },
+  {
+   "id": 89196316,
+   "nr": "01110502",
+   "start": 1793529000000,
+   "end": 1793532600000,
+   "hall": "ISLK International School",
+   "court": "1",
+   "home": {
+    "name": "Sollentuna VK Legends JPG",
+    "teamId": 82055634
+   },
+   "away": {
+    "name": "Falkenbergs Volleybollklubb",
+    "teamId": 87445158
+   },
+   "division": "Placering 13-14",
+   "round": "13-14",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B",
+   "categoryId": 74411946
   },
   {
    "id": 88834077,
@@ -5474,7 +5474,7 @@
   },
   {
    "id": 89195201,
-   "nr": "01110502",
+   "nr": "01110503",
    "start": 1793538000000,
    "end": 1793541600000,
    "hall": "ISLK International School",
@@ -5906,7 +5906,7 @@
   },
   {
    "id": 89195194,
-   "nr": "01110503",
+   "nr": "01110504",
    "start": 1793542500000,
    "end": 1793546100000,
    "hall": "ISLK International School",
