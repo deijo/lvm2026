@@ -1,6 +1,6 @@
 {
- "changed": 1793432038216,
- "checked": 1793432038216,
+ "changed": 1793432222807,
+ "checked": 1793432222807,
  "teams": [
   {
    "key": "t82397474",
@@ -3072,7 +3072,7 @@
     "teamId": null
    },
    "division": "Placering 9-16",
-   "round": "1/4 Final",
+   "round": "9-16",
    "referees": [],
    "result": {
     "finished": false,
@@ -3099,7 +3099,7 @@
     "teamId": null
    },
    "division": "Placering 9-16",
-   "round": "1/4 Final",
+   "round": "9-16",
    "referees": [],
    "result": {
     "finished": false,
@@ -3369,7 +3369,7 @@
     "teamId": null
    },
    "division": "Placering 9-16",
-   "round": "1/4 Final",
+   "round": "9-16",
    "referees": [],
    "result": {
     "finished": false,
@@ -3396,7 +3396,7 @@
     "teamId": null
    },
    "division": "Placering 9-16",
-   "round": "1/4 Final",
+   "round": "9-16",
    "referees": [],
    "result": {
     "finished": false,
@@ -3639,7 +3639,7 @@
     "teamId": null
    },
    "division": "Placering 9-16",
-   "round": "Semifinal",
+   "round": "9-12",
    "referees": [],
    "result": {
     "finished": false,
@@ -3801,7 +3801,7 @@
     "teamId": null
    },
    "division": "Placering 9-16",
-   "round": "Semifinal",
+   "round": "9-12",
    "referees": [],
    "result": {
     "finished": false,
@@ -4692,7 +4692,7 @@
     "teamId": null
    },
    "division": "Placering 9-16",
-   "round": "Bronsmatch",
+   "round": "11-12",
    "referees": [],
    "result": {
     "finished": false,
@@ -4800,7 +4800,7 @@
     "teamId": null
    },
    "division": "Placering 9-16",
-   "round": "Final",
+   "round": "9-10",
    "referees": [],
    "result": {
     "finished": false,
