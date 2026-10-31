@@ -1,6 +1,6 @@
 {
- "changed": 1793474456597,
- "checked": 1793474456597,
+ "changed": 1793474824319,
+ "checked": 1793474824319,
  "teams": [
   {
    "key": "t82397474",
@@ -4017,10 +4017,10 @@
    "round": "9-16",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -4276,8 +4276,8 @@
    "hall": "Bollhuset A",
    "court": "5",
    "home": {
-    "name": "Vinn. 31101706",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779199
    },
    "away": {
     "name": "Vinn. 31101806",
@@ -4804,8 +4804,8 @@
    "hall": "Bollhuset A",
    "court": "5",
    "home": {
-    "name": "Förl. 31101706",
-    "teamId": null
+    "name": "Lunds VK 2",
+    "teamId": 88180374
    },
    "away": {
     "name": "Förl. 31101806",
