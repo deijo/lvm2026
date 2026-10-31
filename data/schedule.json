@@ -1,6 +1,6 @@
 {
- "changed": 1793459167767,
- "checked": 1793459167767,
+ "changed": 1793459353363,
+ "checked": 1793459353363,
  "teams": [
   {
    "key": "t82397474",
@@ -1844,9 +1844,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Gruppspel",
@@ -2858,7 +2858,14 @@
    },
    "division": "Placering 1-12",
    "round": "1/8 Final",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506496,
+     "name": "Hästhagen IF",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -2885,7 +2892,14 @@
    },
    "division": "Placering 1-12",
    "round": "1/8 Final",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506550,
+     "name": "Ishøj Volley",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -2912,7 +2926,14 @@
    },
    "division": "Placering 1-12",
    "round": "1/8 Final",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506615,
+     "name": "Kronan VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -3281,8 +3302,8 @@
    "hall": "Bollhuset A",
    "court": "5",
    "home": {
-    "name": "3:an i Grupp A",
-    "teamId": null
+    "name": "Team Valla",
+    "teamId": 87846811
    },
    "away": {
     "name": "4:an i Grupp B",
@@ -3416,8 +3437,8 @@
    "hall": "Heddahallen",
    "court": "3",
    "home": {
-    "name": "1:an i Grupp A",
-    "teamId": null
+    "name": "Södertelge VBK",
+    "teamId": 84980704
    },
    "away": {
     "name": "2:an i Grupp B",
@@ -3605,8 +3626,8 @@
    "hall": "Bollhuset A",
    "court": "6",
    "home": {
-    "name": "4:an i Grupp A",
-    "teamId": null
+    "name": "Vingåkers VBK",
+    "teamId": 88045612
    },
    "away": {
     "name": "3:an i Grupp B",
@@ -3717,8 +3738,8 @@
     "teamId": null
    },
    "away": {
-    "name": "2:an i Grupp A",
-    "teamId": null
+    "name": "Örkelljunga VK",
+    "teamId": 82916270
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
@@ -3875,8 +3896,8 @@
    "hall": "Bollhuset A",
    "court": "6",
    "home": {
-    "name": "5:an i Grupp A",
-    "teamId": null
+    "name": "Ystads VK",
+    "teamId": 88102622
    },
    "away": {
     "name": "5:an i Grupp D",
