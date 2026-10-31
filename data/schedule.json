@@ -1,6 +1,6 @@
 {
- "changed": 1793469131158,
- "checked": 1793469131158,
+ "changed": 1793469498369,
+ "checked": 1793469498369,
  "teams": [
   {
    "key": "t82397474",
@@ -2864,8 +2864,8 @@
    "hall": "Fäladshallen A",
    "court": "3",
    "home": {
-    "name": "Vinn. 31100906",
-    "teamId": null
+    "name": "Engelholms VS 1",
+    "teamId": 86988570
    },
    "away": {
     "name": "Habo Wolley Red",
@@ -2882,7 +2882,7 @@
    },
    "stage": "Slutspel A",
    "categoryId": 74411947,
-   "opponent": "Vinn. 31100906",
+   "opponent": "Engelholms VS 1",
    "us": "away"
   },
   {
@@ -3653,9 +3653,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4291,8 +4291,8 @@
    "hall": "Fäladshallen A",
    "court": "3",
    "home": {
-    "name": "Vinn. 31100906",
-    "teamId": null
+    "name": "Engelholms VS 1",
+    "teamId": 86988570
    },
    "away": {
     "name": "Habo Wolley Red",
@@ -4970,8 +4970,8 @@
     "teamId": 88101980
    },
    "away": {
-    "name": "Förl. 31100906",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 87640643
    },
    "division": "Placering 5-8",
    "round": "5-8",
