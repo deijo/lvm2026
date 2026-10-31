@@ -1,6 +1,6 @@
 {
- "changed": 1793468760064,
- "checked": 1793468760064,
+ "changed": 1793468945878,
+ "checked": 1793468945878,
  "teams": [
   {
    "key": "t82397474",
@@ -2514,9 +2514,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -2821,6 +2821,37 @@
    "stage": "Gruppspel",
    "categoryId": 74411949,
    "opponent": "Lunds VK",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397448",
+   "id": 88420059,
+   "nr": "01111000",
+   "start": 1793520000000,
+   "end": 1793523600000,
+   "hall": "Fäladshallen A",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397448
+   },
+   "away": {
+    "name": "Sollentuna VK SVK PU18:1",
+    "teamId": 82055603
+   },
+   "division": "Placering 1-8",
+   "round": "Semifinal",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411947,
+   "opponent": "Sollentuna VK SVK PU18:1",
    "us": "home"
   },
   {
@@ -3530,10 +3561,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -3618,9 +3649,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -3713,9 +3744,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4175,8 +4206,8 @@
    "hall": "Fäladshallen A",
    "court": "1",
    "home": {
-    "name": "Förl. 31101004",
-    "teamId": null
+    "name": "Falkenbergs Volleybollklubb",
+    "teamId": 86166241
    },
    "away": {
     "name": "Förl. 31101106",
@@ -4202,8 +4233,8 @@
    "hall": "Fäladshallen A",
    "court": "2",
    "home": {
-    "name": "Vinn. 31101004",
-    "teamId": null
+    "name": "Habo Wolley White",
+    "teamId": 82397448
    },
    "away": {
     "name": "Sollentuna VK SVK PU18:1",
@@ -4260,8 +4291,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Förl. 31102105",
-    "teamId": null
+    "name": "Lunds VK 1",
+    "teamId": 80604874
    },
    "division": "Placering 5-8",
    "round": "5-8",
@@ -4283,8 +4314,8 @@
    "hall": "Heddahallen",
    "court": "4",
    "home": {
-    "name": "Vinn. 31101705",
-    "teamId": null
+    "name": "Team Valla",
+    "teamId": 87846811
    },
    "away": {
     "name": "Vinn. 31101805",
@@ -4688,8 +4719,8 @@
    "hall": "Heddahallen",
    "court": "4",
    "home": {
-    "name": "Förl. 31101705",
-    "teamId": null
+    "name": "Hästhagen IF",
+    "teamId": 87318978
    },
    "away": {
     "name": "Förl. 31101805",
@@ -4719,8 +4750,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31102105",
-    "teamId": null
+    "name": "Floby VBK",
+    "teamId": 88209321
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
