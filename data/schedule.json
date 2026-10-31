@@ -1,6 +1,6 @@
 {
- "changed": 1793469498369,
- "checked": 1793469498369,
+ "changed": 1793469683675,
+ "checked": 1793469683675,
  "teams": [
   {
    "key": "t82397474",
@@ -3626,10 +3626,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -3741,10 +3741,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel A",
    "categoryId": 79799199
@@ -4318,8 +4318,8 @@
    "hall": "Heddahallen",
    "court": "3",
    "home": {
-    "name": "Förl. 31101605",
-    "teamId": null
+    "name": "Uppsala VBS Blue",
+    "teamId": 88180315
    },
    "away": {
     "name": "Lunds VK 1",
@@ -4349,8 +4349,8 @@
     "teamId": 87846811
    },
    "away": {
-    "name": "Vinn. 31101805",
-    "teamId": null
+    "name": "Engelholms VS",
+    "teamId": 87183460
    },
    "division": "Placering 9-16",
    "round": "9-12",
@@ -4754,8 +4754,8 @@
     "teamId": 87318978
    },
    "away": {
-    "name": "Förl. 31101805",
-    "teamId": null
+    "name": "Södermalms VBK",
+    "teamId": 88045203
    },
    "division": "Placering 13-16",
    "round": "13-16",
@@ -4777,8 +4777,8 @@
    "hall": "Idrottshallen",
    "court": "1",
    "home": {
-    "name": "Vinn. 31101605",
-    "teamId": null
+    "name": "Södertelge VBK",
+    "teamId": 84980704
    },
    "away": {
     "name": "Floby VBK",
