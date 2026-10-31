@@ -1,6 +1,6 @@
 {
- "changed": 1793465058261,
- "checked": 1793465058261,
+ "changed": 1793465243913,
+ "checked": 1793465243913,
  "teams": [
   {
    "key": "t82397474",
@@ -2370,10 +2370,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Placering 7-10",
    "categoryId": 74411945,
@@ -2896,6 +2896,37 @@
    "stage": "Gruppspel",
    "categoryId": 74411949,
    "role": "Huvuddomare"
+  },
+  {
+   "kind": "match",
+   "team": "t82397443",
+   "id": 88417358,
+   "nr": "01113303",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Vipeholmsskolan",
+   "court": "4",
+   "home": {
+    "name": "Lunds VK Red",
+    "teamId": 80604853
+   },
+   "away": {
+    "name": "Habo Wolley",
+    "teamId": 82397443
+   },
+   "division": "Placering 7-10",
+   "round": "7-8",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Placering 7-10",
+   "categoryId": 74411945,
+   "opponent": "Lunds VK Red",
+   "us": "away"
   }
  ],
  "playoffs": [
@@ -2925,10 +2956,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Placering 7-10",
    "categoryId": 74411945
@@ -5683,8 +5714,8 @@
     "teamId": 80604858
    },
    "away": {
-    "name": "Förl. 31101405",
-    "teamId": null
+    "name": "Hästhagen IF Väte",
+    "teamId": 87813224
    },
    "division": "Placering 7-10",
    "round": "9-10",
@@ -6223,8 +6254,8 @@
     "teamId": 80604853
    },
    "away": {
-    "name": "Vinn. 31101405",
-    "teamId": null
+    "name": "Habo Wolley",
+    "teamId": 82397443
    },
    "division": "Placering 7-10",
    "round": "7-8",
