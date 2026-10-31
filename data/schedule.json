@@ -1,6 +1,6 @@
 {
- "changed": 1793473356372,
- "checked": 1793473356372,
+ "changed": 1793473722010,
+ "checked": 1793473722010,
  "teams": [
   {
    "key": "t82397474",
@@ -3055,6 +3055,37 @@
   },
   {
    "kind": "match",
+   "team": "t82397492",
+   "id": 88833112,
+   "nr": "01112904",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Tunaskolan",
+   "court": "3",
+   "home": {
+    "name": "Lunds VK DJ4",
+    "teamId": 81353336
+   },
+   "away": {
+    "name": "Habo Wolley",
+    "teamId": 82397492
+   },
+   "division": "Final",
+   "round": "Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Final",
+   "categoryId": 74411950,
+   "opponent": "Lunds VK DJ4",
+   "us": "away"
+  },
+  {
+   "kind": "match",
    "team": "t82397443",
    "id": 88417358,
    "nr": "01113303",
@@ -4597,12 +4628,12 @@
    "hall": "Tunaskolan",
    "court": "3",
    "home": {
-    "name": "6:an i Grupp A",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779215
    },
    "away": {
-    "name": "5:an i Grupp A",
-    "teamId": null
+    "name": "Lunds VK DJ3",
+    "teamId": 81353332
    },
    "division": "Placering 5-7",
    "round": "",
@@ -5002,12 +5033,12 @@
    "hall": "Tunaskolan",
    "court": "3",
    "home": {
-    "name": "7:an i Grupp A",
-    "teamId": null
+    "name": "Borgen VK BorgenMasters",
+    "teamId": 87604339
    },
    "away": {
-    "name": "6:an i Grupp A",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779215
    },
    "division": "Placering 5-7",
    "round": "",
@@ -5272,12 +5303,12 @@
    "hall": "Tunaskolan",
    "court": "3",
    "home": {
-    "name": "5:an i Grupp A",
-    "teamId": null
+    "name": "Lunds VK DJ3",
+    "teamId": 81353332
    },
    "away": {
-    "name": "7:an i Grupp A",
-    "teamId": null
+    "name": "Borgen VK BorgenMasters",
+    "teamId": 87604339
    },
    "division": "Placering 5-7",
    "round": "",
@@ -5677,12 +5708,12 @@
    "hall": "Tunaskolan",
    "court": "3",
    "home": {
-    "name": "3:an i Grupp A",
-    "teamId": null
+    "name": "Sollentuna VK SVK FU20",
+    "teamId": 82055679
    },
    "away": {
-    "name": "4:an i Grupp A",
-    "teamId": null
+    "name": "Tartu Katoliku Sportsclub",
+    "teamId": 87396371
    },
    "division": "Bronze game",
    "round": "3-4",
@@ -6217,12 +6248,12 @@
    "hall": "Tunaskolan",
    "court": "3",
    "home": {
-    "name": "1:an i Grupp A",
-    "teamId": null
+    "name": "Lunds VK DJ4",
+    "teamId": 81353336
    },
    "away": {
-    "name": "2:an i Grupp A",
-    "teamId": null
+    "name": "Habo Wolley",
+    "teamId": 82397492
    },
    "division": "Final",
    "round": "Final",
