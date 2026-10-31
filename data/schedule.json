@@ -1,6 +1,6 @@
 {
- "changed": 1793459905025,
- "checked": 1793459905025,
+ "changed": 1793460089189,
+ "checked": 1793460089189,
  "teams": [
   {
    "key": "t82397474",
@@ -2513,6 +2513,37 @@
   },
   {
    "kind": "match",
+   "team": "t82397464",
+   "id": 88887249,
+   "nr": "31102105",
+   "start": 1793465100000,
+   "end": 1793467800000,
+   "hall": "Heddahallen",
+   "court": "4",
+   "home": {
+    "name": "Habo Wolley",
+    "teamId": 82397464
+   },
+   "away": {
+    "name": "1:an i Grupp D",
+    "teamId": null
+   },
+   "division": "Placering 1-8",
+   "round": "1/4 Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 79799199,
+   "opponent": "1:an i Grupp D",
+   "us": "home"
+  },
+  {
+   "kind": "match",
    "team": "t82397474",
    "id": 88949076,
    "nr": "31100506",
@@ -3336,8 +3367,8 @@
    "hall": "Bollhuset A",
    "court": "6",
    "home": {
-    "name": "4:an i Grupp C",
-    "teamId": null
+    "name": "Lunds VK 2",
+    "teamId": 88180374
    },
    "away": {
     "name": "3:an i Grupp D",
@@ -3471,8 +3502,8 @@
    "hall": "Heddahallen",
    "court": "4",
    "home": {
-    "name": "2:an i Grupp C",
-    "teamId": null
+    "name": "Habo Wolley",
+    "teamId": 82397464
    },
    "away": {
     "name": "1:an i Grupp D",
@@ -3606,8 +3637,8 @@
    "hall": "Bollhuset A",
    "court": "5",
    "home": {
-    "name": "3:an i Grupp C",
-    "teamId": null
+    "name": "Södermalms VBK",
+    "teamId": 88045203
    },
    "away": {
     "name": "4:an i Grupp D",
@@ -3714,8 +3745,8 @@
    "hall": "Heddahallen",
    "court": "3",
    "home": {
-    "name": "1:an i Grupp C",
-    "teamId": null
+    "name": "Floby VBK",
+    "teamId": 88209321
    },
    "away": {
     "name": "2:an i Grupp D",
@@ -4420,8 +4451,8 @@
     "teamId": null
    },
    "away": {
-    "name": "5:an i Grupp C",
-    "teamId": null
+    "name": "Allstar Owls (Vineta-Audorf)",
+    "teamId": 87799505
    },
    "division": "Placering 17-20",
    "round": "17-20",
