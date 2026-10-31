@@ -1,6 +1,6 @@
 {
- "changed": 1793475009744,
- "checked": 1793475009744,
+ "changed": 1793475194140,
+ "checked": 1793475194140,
  "teams": [
   {
    "key": "t82397474",
@@ -2842,7 +2842,14 @@
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506932,
+     "name": "Malmö VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -2873,7 +2880,14 @@
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506353,
+     "name": "Hylte Halmstad VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4377,7 +4391,14 @@
    },
    "division": "Placering 5-8",
    "round": "5-8",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507181,
+     "name": "Solna VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4404,7 +4425,14 @@
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506932,
+     "name": "Malmö VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -4431,7 +4459,14 @@
    },
    "division": "Placering 1-8",
    "round": "Semifinal",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506353,
+     "name": "Hylte Halmstad VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
