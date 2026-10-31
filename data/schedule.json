@@ -1,6 +1,6 @@
 {
- "changed": 1793468019558,
- "checked": 1793468019558,
+ "changed": 1793468204872,
+ "checked": 1793468204872,
  "teams": [
   {
    "key": "t82397474",
@@ -2952,33 +2952,6 @@
    "categoryId": 74411946
   },
   {
-   "id": 89195198,
-   "nr": "31100605",
-   "start": 1793458800000,
-   "end": 1793462400000,
-   "hall": "ISLK International School",
-   "court": "2",
-   "home": {
-    "name": "Malmö VK Hinata",
-    "teamId": 87352775
-   },
-   "away": {
-    "name": "Sollentuna VK Challengers JPG",
-    "teamId": 82055629
-   },
-   "division": "Slutspel B",
-   "round": "16-23",
-   "referees": [],
-   "result": {
-    "finished": true,
-    "live": false,
-    "home": 0,
-    "away": 2
-   },
-   "stage": "Slutspel B",
-   "categoryId": 74411946
-  },
-  {
    "id": 89195196,
    "nr": "31100705",
    "start": 1793458800000,
@@ -2997,9 +2970,9 @@
    "round": "16-23",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
@@ -3357,9 +3330,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -3719,7 +3692,7 @@
   },
   {
    "id": 88949078,
-   "nr": "31100606",
+   "nr": "31100605",
    "start": 1793465100000,
    "end": 1793468700000,
    "hall": "ISLK International School",
@@ -4283,7 +4256,7 @@
     "teamId": 86898622
    },
    "away": {
-    "name": "Vinn. 31100606",
+    "name": "Vinn. 31100605",
     "teamId": null
    },
    "division": "Placering 1-8",
@@ -4499,8 +4472,8 @@
     "teamId": 87813219
    },
    "away": {
-    "name": "Vinn. 31102306",
-    "teamId": null
+    "name": "Sollentuna VK Legends",
+    "teamId": 82210976
    },
    "division": "Placering 1-6",
    "round": "Semifinal",
@@ -4738,7 +4711,7 @@
    "hall": "ISLK International School",
    "court": "3",
    "home": {
-    "name": "Förl. 31100606",
+    "name": "Förl. 31100605",
     "teamId": null
    },
    "away": {
@@ -4985,8 +4958,8 @@
     "teamId": 82779191
    },
    "away": {
-    "name": "Förl. 31102306",
-    "teamId": null
+    "name": "Falkenbergs Volleybollklubb",
+    "teamId": 87445151
    },
    "division": "Placering 5-6",
    "round": "5-6",
@@ -6117,8 +6090,8 @@
     "teamId": 82055644
    },
    "away": {
-    "name": "Vinn. 31100705",
-    "teamId": null
+    "name": "Sollentuna VK Originals JPG",
+    "teamId": 82055623
    },
    "division": "Slutspel B",
    "round": "16-19",
