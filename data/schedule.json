@@ -1,6 +1,6 @@
 {
- "changed": 1793472987475,
- "checked": 1793472987475,
+ "changed": 1793473172678,
+ "checked": 1793473172678,
  "teams": [
   {
    "key": "t82397474",
@@ -4067,9 +4067,9 @@
    "round": "9-12",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
@@ -5492,8 +5492,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Förl. 31101107",
-    "teamId": null
+    "name": "Ishøj Volley",
+    "teamId": 82143845
    },
    "division": "Placering 9-14",
    "round": "11-12",
@@ -6086,8 +6086,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 31101107",
-    "teamId": null
+    "name": "Lunds VK Black",
+    "teamId": 80604866
    },
    "division": "Placering 9-14",
    "round": "9-10",
