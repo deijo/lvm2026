@@ -1,6 +1,6 @@
 {
- "changed": 1793474824319,
- "checked": 1793474824319,
+ "changed": 1793475009744,
+ "checked": 1793475009744,
  "teams": [
   {
    "key": "t82397474",
@@ -2675,9 +2675,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -2990,6 +2990,37 @@
    "stage": "Gruppspel",
    "categoryId": 74411949,
    "role": "Huvuddomare"
+  },
+  {
+   "kind": "match",
+   "team": "t82397464",
+   "id": 88887260,
+   "nr": "01112201",
+   "start": 1793524500000,
+   "end": 1793527200000,
+   "hall": "Idrottshallen",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley",
+    "teamId": 82397464
+   },
+   "away": {
+    "name": "Örkelljunga VK",
+    "teamId": 82916270
+   },
+   "division": "Placering 1-8",
+   "round": "Semifinal",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 79799199,
+   "opponent": "Örkelljunga VK",
+   "us": "home"
   },
   {
    "kind": "match",
@@ -4125,9 +4156,9 @@
    "round": "1/4 Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4858,8 +4889,8 @@
    "hall": "Heddahallen",
    "court": "3",
    "home": {
-    "name": "Förl. 31101606",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 86766039
    },
    "away": {
     "name": "Sollentuna VK",
@@ -4939,8 +4970,8 @@
    "hall": "Idrottshallen",
    "court": "2",
    "home": {
-    "name": "Vinn. 31101606",
-    "teamId": null
+    "name": "Habo Wolley",
+    "teamId": 82397464
    },
    "away": {
     "name": "Örkelljunga VK",
