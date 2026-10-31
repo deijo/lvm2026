@@ -1,6 +1,6 @@
 {
- "changed": 1793460274260,
- "checked": 1793460274260,
+ "changed": 1793460458307,
+ "checked": 1793460458307,
  "teams": [
   {
    "key": "t82397474",
@@ -2449,6 +2449,43 @@
    "us": "home"
   },
   {
+   "kind": "ref",
+   "team": "t82397469",
+   "id": 88949112,
+   "nr": "31100605",
+   "start": 1793460600000,
+   "end": 1793464200000,
+   "hall": "ISLK International School",
+   "court": "2",
+   "home": {
+    "name": "Malmö VK Hinata",
+    "teamId": 87352775
+   },
+   "away": {
+    "name": "Sollentuna VK Challengers JPG",
+    "teamId": 82055629
+   },
+   "division": "Placering 9-15",
+   "round": "9-16",
+   "referees": [
+    {
+     "id": 88506275,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397469"
+    }
+   ],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel B",
+   "categoryId": 74411946,
+   "role": "Huvuddomare"
+  },
+  {
    "kind": "match",
    "team": "t82397492",
    "id": 88833094,
@@ -3164,7 +3201,14 @@
    },
    "division": "Placering 9-15",
    "round": "9-16",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506015,
+     "name": "Engelholms VS",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -3191,7 +3235,14 @@
    },
    "division": "Placering 9-15",
    "round": "9-16",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506275,
+     "name": "Habo Wolley Red",
+     "role": "Huvuddomare",
+     "ours": "t82397469"
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -3218,7 +3269,14 @@
    },
    "division": "Placering 9-15",
    "round": "9-16",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507222,
+     "name": "Svedala Volley",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
