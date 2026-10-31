@@ -1,6 +1,6 @@
 {
- "changed": 1793461012652,
- "checked": 1793461012652,
+ "changed": 1793461196869,
+ "checked": 1793461196869,
  "teams": [
   {
    "key": "t82397474",
@@ -3621,7 +3621,14 @@
    },
    "division": "Placering 1-8",
    "round": "1/4 Final",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506366,
+     "name": "Hylte Halmstad VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
