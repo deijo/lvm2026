@@ -1,6 +1,6 @@
 {
- "changed": 1793525795752,
- "checked": 1793525795752,
+ "changed": 1793527256256,
+ "checked": 1793527256256,
  "teams": [
   {
    "key": "t82397474",
@@ -3095,9 +3095,9 @@
    "round": "Semifinal",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -3150,8 +3150,8 @@
     "teamId": 82397479
    },
    "away": {
-    "name": "Förl. 01112801",
-    "teamId": null
+    "name": "Sollentuna VK Fitline",
+    "teamId": 82055662
    },
    "division": "Placering 1-12",
    "round": "Bronsmatch",
@@ -3164,7 +3164,7 @@
    },
    "stage": "Slutspel A",
    "categoryId": 74411948,
-   "opponent": "Förl. 01112801",
+   "opponent": "Sollentuna VK Fitline",
    "us": "home"
   },
   {
@@ -3228,6 +3228,37 @@
    "categoryId": 74411947,
    "opponent": "Engelholms VS 1",
    "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397484",
+   "id": 88944392,
+   "nr": "01112803",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898630
+   },
+   "away": {
+    "name": "Habo Wolley White",
+    "teamId": 82397484
+   },
+   "division": "Placering 1-12",
+   "round": "Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948,
+   "opponent": "Kaunas SM \"Startas\"",
+   "us": "away"
   },
   {
    "kind": "match",
@@ -5426,9 +5457,9 @@
    "round": "Semifinal",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -5590,7 +5621,7 @@
    "result": {
     "finished": false,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
@@ -5959,8 +5990,8 @@
     "teamId": 82397479
    },
    "away": {
-    "name": "Förl. 01112801",
-    "teamId": null
+    "name": "Sollentuna VK Fitline",
+    "teamId": 82055662
    },
    "division": "Placering 1-12",
    "round": "Bronsmatch",
@@ -6499,8 +6530,8 @@
     "teamId": 86898630
    },
    "away": {
-    "name": "Vinn. 01112801",
-    "teamId": null
+    "name": "Habo Wolley White",
+    "teamId": 82397484
    },
    "division": "Placering 1-12",
    "round": "Final",
