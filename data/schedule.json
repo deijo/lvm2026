@@ -1,6 +1,6 @@
 {
- "changed": 1793542259430,
- "checked": 1793542259430,
+ "changed": 1793542626438,
+ "checked": 1793542626438,
  "teams": [
   {
    "key": "t82397474",
@@ -3286,7 +3286,14 @@
    },
    "division": "Slutspel A",
    "round": "Final",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506693,
+     "name": "Lunds VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -5881,10 +5888,10 @@
    "round": "Bronsmatch",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel A",
    "categoryId": 79799199
@@ -6382,10 +6389,10 @@
    "round": "3-4",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel B",
    "categoryId": 74411949
@@ -6623,7 +6630,14 @@
    },
    "division": "Slutspel A",
    "round": "Final",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506693,
+     "name": "Lunds VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
