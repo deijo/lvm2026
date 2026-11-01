@@ -1,6 +1,6 @@
 {
- "changed": 1793547009877,
- "checked": 1793547009877,
+ "changed": 1793547738827,
+ "checked": 1793547738827,
  "teams": [
   {
    "key": "t82397474",
@@ -3133,10 +3133,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel A",
    "categoryId": 74411947,
@@ -3295,10 +3295,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411949,
@@ -3388,10 +3388,10 @@
    "round": "7-8",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Placering 7-10",
    "categoryId": 74411945,
@@ -5990,10 +5990,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel A",
    "categoryId": 74411947
@@ -6639,10 +6639,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411949
@@ -6835,9 +6835,9 @@
    "round": "Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -6862,10 +6862,10 @@
    "round": "7-8",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Placering 7-10",
    "categoryId": 74411945
