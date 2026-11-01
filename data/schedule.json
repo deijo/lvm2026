@@ -1,6 +1,6 @@
 {
- "changed": 1793538781837,
- "checked": 1793538781837,
+ "changed": 1793539147509,
+ "checked": 1793539147509,
  "teams": [
   {
    "key": "t82397474",
@@ -6224,7 +6224,14 @@
    },
    "division": "Placering 13-20",
    "round": "15-16",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506392,
+     "name": "Hylte Halmstad VBK Black",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -6751,7 +6758,14 @@
    },
    "division": "Placering 17-20",
    "round": "17-18",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506340,
+     "name": "Hakefjorden VK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
