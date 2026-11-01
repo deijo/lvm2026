@@ -1,6 +1,6 @@
 {
- "changed": 1793536951580,
- "checked": 1793536951580,
+ "changed": 1793537498279,
+ "checked": 1793537498279,
  "teams": [
   {
    "key": "t82397474",
@@ -5899,7 +5899,14 @@
    },
    "division": "Placering 5-8",
    "round": "7-8",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88507261,
+     "name": "Södertelge VBK",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
