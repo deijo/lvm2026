@@ -1,6 +1,6 @@
 {
- "changed": 1793528540024,
- "checked": 1793528540024,
+ "changed": 1793529470220,
+ "checked": 1793529470220,
  "teams": [
   {
    "key": "t82397474",
@@ -5461,9 +5461,9 @@
    "round": "9-12",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -5515,10 +5515,10 @@
    "round": "5-8",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411948
@@ -5542,10 +5542,10 @@
    "round": "17-20",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 74411948
@@ -5569,9 +5569,9 @@
    "round": "13-16",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
@@ -5994,8 +5994,8 @@
     "teamId": 82779207
    },
    "away": {
-    "name": "Förl. 01110301",
-    "teamId": null
+    "name": "Södertelge VBK",
+    "teamId": 87800035
    },
    "division": "Placering 9-12",
    "round": "11-12",
@@ -6075,8 +6075,8 @@
     "teamId": 81353324
    },
    "away": {
-    "name": "Förl. 01113001",
-    "teamId": null
+    "name": "Hylte Halmstad VBK White",
+    "teamId": 88416292
    },
    "division": "PLacering 5-8",
    "round": "7-8",
@@ -6102,8 +6102,8 @@
     "teamId": 87799863
    },
    "away": {
-    "name": "Förl. 01110401",
-    "teamId": null
+    "name": "Ishøj Volley",
+    "teamId": 82143849
    },
    "division": "Placering 17-20",
    "round": "19-20",
@@ -6129,8 +6129,8 @@
     "teamId": 87813198
    },
    "away": {
-    "name": "Förl. 01113101",
-    "teamId": null
+    "name": "BSC Hanse",
+    "teamId": 82210630
    },
    "division": "Placering 13-20",
    "round": "15-16",
@@ -6534,8 +6534,8 @@
     "teamId": 88077924
    },
    "away": {
-    "name": "Vinn. 01110301",
-    "teamId": null
+    "name": "Lunds VK DJ2",
+    "teamId": 81353328
    },
    "division": "Placering 9-12",
    "round": "9-10",
@@ -6615,8 +6615,8 @@
     "teamId": 82055669
    },
    "away": {
-    "name": "Vinn. 01113001",
-    "teamId": null
+    "name": "Sollentuna VK Dignitas",
+    "teamId": 82055655
    },
    "division": "PLacering 5-8",
    "round": "5-6",
@@ -6642,8 +6642,8 @@
     "teamId": 87799659
    },
    "away": {
-    "name": "Vinn. 01110401",
-    "teamId": null
+    "name": "Kronan VBK",
+    "teamId": 87903146
    },
    "division": "Placering 17-20",
    "round": "17-18",
@@ -6669,8 +6669,8 @@
     "teamId": 80663081
    },
    "away": {
-    "name": "Vinn. 01113101",
-    "teamId": null
+    "name": "Hylte Halmstad VBK Black",
+    "teamId": 88416288
    },
    "division": "Placering 13-20",
    "round": "13-14",
