@@ -1,6 +1,6 @@
 {
- "changed": 1793522676206,
- "checked": 1793522676206,
+ "changed": 1793523591258,
+ "checked": 1793523591258,
  "teams": [
   {
    "key": "t82397474",
@@ -2851,9 +2851,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -2889,9 +2889,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -3103,6 +3103,68 @@
    "stage": "Slutspel A",
    "categoryId": 74411948,
    "opponent": "Sollentuna VK Fitline",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397453",
+   "id": 88550183,
+   "nr": "01111101",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "Fäladshallen A",
+   "court": "3",
+   "home": {
+    "name": "Sollentuna VK SVK PU18:1",
+    "teamId": 82055603
+   },
+   "away": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397453
+   },
+   "division": "Placering 1-8",
+   "round": "Bronsmatch",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411947,
+   "opponent": "Sollentuna VK SVK PU18:1",
+   "us": "away"
+  },
+  {
+   "kind": "match",
+   "team": "t82397448",
+   "id": 88420058,
+   "nr": "01111102",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Fäladshallen A",
+   "court": "3",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397448
+   },
+   "away": {
+    "name": "Engelholms VS 1",
+    "teamId": 86988570
+   },
+   "division": "Placering 1-8",
+   "round": "Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411947,
+   "opponent": "Engelholms VS 1",
    "us": "home"
   },
   {
@@ -4448,9 +4510,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4482,9 +4544,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -5696,12 +5758,12 @@
    "hall": "Fäladshallen A",
    "court": "3",
    "home": {
-    "name": "Förl. 01111000",
-    "teamId": null
+    "name": "Sollentuna VK SVK PU18:1",
+    "teamId": 82055603
    },
    "away": {
-    "name": "Förl. 01111100",
-    "teamId": null
+    "name": "Habo Wolley Red",
+    "teamId": 82397453
    },
    "division": "Placering 1-8",
    "round": "Bronsmatch",
@@ -6290,12 +6352,12 @@
    "hall": "Fäladshallen A",
    "court": "3",
    "home": {
-    "name": "Vinn. 01111000",
-    "teamId": null
+    "name": "Habo Wolley White",
+    "teamId": 82397448
    },
    "away": {
-    "name": "Vinn. 01111100",
-    "teamId": null
+    "name": "Engelholms VS 1",
+    "teamId": 86988570
    },
    "division": "Placering 1-8",
    "round": "Final",
