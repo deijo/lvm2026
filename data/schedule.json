@@ -1,6 +1,6 @@
 {
- "changed": 1793529655335,
- "checked": 1793529655335,
+ "changed": 1793529839645,
+ "checked": 1793529839645,
  "teams": [
   {
    "key": "t82397474",
@@ -5249,10 +5249,10 @@
    "round": "13-16",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -5438,10 +5438,10 @@
    "round": "5-8",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411947
@@ -5863,8 +5863,8 @@
     "teamId": 86166241
    },
    "away": {
-    "name": "Förl. 01110901",
-    "teamId": null
+    "name": "Solna VBK",
+    "teamId": 88101980
    },
    "division": "Placering 5-8",
    "round": "7-8",
@@ -6237,8 +6237,8 @@
    "hall": "Bollhuset A",
    "court": "5",
    "home": {
-    "name": "Förl. 01112101",
-    "teamId": null
+    "name": "Södermalms VBK",
+    "teamId": 88045203
    },
    "away": {
     "name": "Förl. 01111701",
@@ -6345,8 +6345,8 @@
    "hall": "Heddahallen",
    "court": "4",
    "home": {
-    "name": "Vinn. 01112101",
-    "teamId": null
+    "name": "Hästhagen IF",
+    "teamId": 87318978
    },
    "away": {
     "name": "Vinn. 01111701",
@@ -6457,8 +6457,8 @@
     "teamId": 87800028
    },
    "away": {
-    "name": "Vinn. 01110901",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 87640643
    },
    "division": "Placering 5-8",
    "round": "5-6",
