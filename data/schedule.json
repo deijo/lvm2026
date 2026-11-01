@@ -1,6 +1,6 @@
 {
- "changed": 1793542811273,
- "checked": 1793542811273,
+ "changed": 1793542995594,
+ "checked": 1793542995594,
  "teams": [
   {
    "key": "t82397474",
@@ -6308,10 +6308,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Placering 7-10",
    "categoryId": 74411945
