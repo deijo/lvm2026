@@ -1,6 +1,6 @@
 {
- "changed": 1793541709974,
- "checked": 1793541709974,
+ "changed": 1793542075526,
+ "checked": 1793542075526,
  "teams": [
   {
    "key": "t82397474",
@@ -5949,10 +5949,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 74411947
@@ -6436,10 +6436,10 @@
    "round": "13-14",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
