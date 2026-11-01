@@ -1,6 +1,6 @@
 {
- "changed": 1793522491822,
- "checked": 1793522491822,
+ "changed": 1793522676206,
+ "checked": 1793522676206,
  "teams": [
   {
    "key": "t82397474",
@@ -4516,10 +4516,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 79799199
@@ -4618,9 +4618,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -5561,8 +5561,8 @@
    "hall": "Heddahallen",
    "court": "3",
    "home": {
-    "name": "Vinn. 01111600",
-    "teamId": null
+    "name": "Lunds VK 1",
+    "teamId": 80604874
    },
    "away": {
     "name": "Vinn. 01111601",
@@ -5750,8 +5750,8 @@
    "hall": "ISLK International School",
    "court": "2",
    "home": {
-    "name": "Förl. 01110600",
-    "teamId": null
+    "name": "Sollentuna VK Top Fuel",
+    "teamId": 82055639
    },
    "away": {
     "name": "Förl. 01110601",
@@ -6101,8 +6101,8 @@
    "hall": "Heddahallen",
    "court": "3",
    "home": {
-    "name": "Förl. 01111600",
-    "teamId": null
+    "name": "Uppsala VBS Blue",
+    "teamId": 88180315
    },
    "away": {
     "name": "Förl. 01111601",
@@ -6182,8 +6182,8 @@
    "hall": "ISLK International School",
    "court": "2",
    "home": {
-    "name": "Vinn. 01110600",
-    "teamId": null
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898622
    },
    "away": {
     "name": "Vinn. 01110601",
