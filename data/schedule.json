@@ -1,6 +1,6 @@
 {
- "changed": 1793530208722,
- "checked": 1793530208722,
+ "changed": 1793530940129,
+ "checked": 1793530940129,
  "teams": [
   {
    "key": "t82397474",
@@ -3363,8 +3363,8 @@
    "hall": "Idrottshallen",
    "court": "2",
    "home": {
-    "name": "Vinn. 01110101",
-    "teamId": null
+    "name": "Floby VBK",
+    "teamId": 88209321
    },
    "away": {
     "name": "Habo Wolley",
@@ -3381,7 +3381,7 @@
    },
    "stage": "Slutspel A",
    "categoryId": 79799199,
-   "opponent": "Vinn. 01110101",
+   "opponent": "Floby VBK",
    "us": "away"
   }
  ],
@@ -5276,10 +5276,10 @@
    "round": "Semifinal",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 79799199
@@ -5832,8 +5832,8 @@
    "hall": "Idrottshallen",
    "court": "2",
    "home": {
-    "name": "Förl. 01110101",
-    "teamId": null
+    "name": "Södertelge VBK",
+    "teamId": 84980704
    },
    "away": {
     "name": "Örkelljunga VK",
@@ -6777,8 +6777,8 @@
    "hall": "Idrottshallen",
    "court": "2",
    "home": {
-    "name": "Vinn. 01110101",
-    "teamId": null
+    "name": "Floby VBK",
+    "teamId": 88209321
    },
    "away": {
     "name": "Habo Wolley",
