@@ -1,6 +1,6 @@
 {
- "changed": 1793527439604,
- "checked": 1793527439604,
+ "changed": 1793527625579,
+ "checked": 1793527625579,
  "teams": [
   {
    "key": "t82397474",
@@ -5160,10 +5160,10 @@
    "round": "5-8",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 79799199
@@ -5720,8 +5720,8 @@
     "teamId": 80604874
    },
    "away": {
-    "name": "Vinn. 01111601",
-    "teamId": null
+    "name": "Sollentuna VK",
+    "teamId": 82401140
    },
    "division": "Placering 5-8",
    "round": "5-6",
@@ -6260,8 +6260,8 @@
     "teamId": 88180315
    },
    "away": {
-    "name": "Förl. 01111601",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 86766039
    },
    "division": "Placering 5-8",
    "round": "7-8",
