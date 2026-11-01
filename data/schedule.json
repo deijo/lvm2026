@@ -1,6 +1,6 @@
 {
- "changed": 1793534580559,
- "checked": 1793534580559,
+ "changed": 1793535671858,
+ "checked": 1793535671858,
  "teams": [
   {
    "key": "t82397474",
@@ -6223,7 +6223,14 @@
    },
    "division": "Placering 1-6",
    "round": "Bronsmatch",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506444,
+     "name": "Hästhagen IF Kol",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
