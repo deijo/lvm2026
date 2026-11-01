@@ -1,6 +1,6 @@
 {
- "changed": 1793525426495,
- "checked": 1793525426495,
+ "changed": 1793525611357,
+ "checked": 1793525611357,
  "teams": [
   {
    "key": "t82397474",
@@ -4439,10 +4439,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -5577,8 +5577,8 @@
     "teamId": 87183460
    },
    "away": {
-    "name": "Förl. 01111700",
-    "teamId": null
+    "name": "Vingåkers VBK",
+    "teamId": 88045612
    },
    "division": "Placering 9-16",
    "round": "11-12",
@@ -5685,8 +5685,8 @@
     "teamId": 87846811
    },
    "away": {
-    "name": "Vinn. 01111700",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779199
    },
    "division": "Placering 9-16",
    "round": "9-10",
