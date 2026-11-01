@@ -1,6 +1,6 @@
 {
- "changed": 1793541341584,
- "checked": 1793541341584,
+ "changed": 1793541525747,
+ "checked": 1793541525747,
  "teams": [
   {
    "key": "t82397474",
@@ -3164,10 +3164,10 @@
    "round": "Bronsmatch",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411946,
@@ -3319,9 +3319,9 @@
    "round": "Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -5773,10 +5773,10 @@
    "round": "17-18",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -6037,10 +6037,10 @@
    "round": "Bronsmatch",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411946
@@ -6679,9 +6679,9 @@
    "round": "Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
