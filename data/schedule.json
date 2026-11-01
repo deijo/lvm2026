@@ -1,6 +1,6 @@
 {
- "changed": 1793528355519,
- "checked": 1793528355519,
+ "changed": 1793528540024,
+ "checked": 1793528540024,
  "teams": [
   {
    "key": "t82397474",
@@ -5164,10 +5164,10 @@
    "round": "17-20",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -5697,8 +5697,8 @@
     "teamId": 88180331
    },
    "away": {
-    "name": "Vinn. 01111801",
-    "teamId": null
+    "name": "Allstar Owls (Vineta-Audorf)",
+    "teamId": 87799505
    },
    "division": "Placering 17-20",
    "round": "17-18",
@@ -6237,8 +6237,8 @@
     "teamId": 88102622
    },
    "away": {
-    "name": "Förl. 01111801",
-    "teamId": null
+    "name": "Majorna VBK",
+    "teamId": 87903152
    },
    "division": "Placering 17-20",
    "round": "19-20",
