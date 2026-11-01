@@ -1,6 +1,6 @@
 {
- "changed": 1793539147509,
- "checked": 1793539147509,
+ "changed": 1793539696543,
+ "checked": 1793539696543,
  "teams": [
   {
    "key": "t82397474",
@@ -3195,10 +3195,10 @@
    "round": "Bronsmatch",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel A",
    "categoryId": 74411948,
@@ -6118,10 +6118,10 @@
    "round": "Bronsmatch",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel A",
    "categoryId": 74411948
