@@ -1,6 +1,6 @@
 {
- "changed": 1793540245588,
- "checked": 1793540245588,
+ "changed": 1793541341584,
+ "checked": 1793541341584,
  "teams": [
   {
    "key": "t82397474",
@@ -6490,9 +6490,9 @@
    "round": "Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
