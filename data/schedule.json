@@ -1,6 +1,6 @@
 {
- "changed": 1793523959165,
- "checked": 1793523959165,
+ "changed": 1793524144380,
+ "checked": 1793524144380,
  "teams": [
   {
    "key": "t82397474",
@@ -4442,10 +4442,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -5569,8 +5569,8 @@
    "hall": "Bollhuset A",
    "court": "6",
    "home": {
-    "name": "Vinn. 01111800",
-    "teamId": null
+    "name": "Värnamo VBA SM",
+    "teamId": 88180331
    },
    "away": {
     "name": "Vinn. 01111801",
@@ -6109,8 +6109,8 @@
    "hall": "Bollhuset A",
    "court": "6",
    "home": {
-    "name": "Förl. 01111800",
-    "teamId": null
+    "name": "Ystads VK",
+    "teamId": 88102622
    },
    "away": {
     "name": "Förl. 01111801",
