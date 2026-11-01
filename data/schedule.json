@@ -1,6 +1,6 @@
 {
- "changed": 1793529470220,
- "checked": 1793529470220,
+ "changed": 1793529655335,
+ "checked": 1793529655335,
  "teams": [
   {
    "key": "t82397474",
@@ -3033,9 +3033,9 @@
    "round": "Semifinal",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -3351,6 +3351,37 @@
    "stage": "Placering 7-10",
    "categoryId": 74411945,
    "opponent": "Lunds VK Red",
+   "us": "away"
+  },
+  {
+   "kind": "match",
+   "team": "t82397464",
+   "id": 88887253,
+   "nr": "01112203",
+   "start": 1793544300000,
+   "end": 1793547000000,
+   "hall": "Idrottshallen",
+   "court": "2",
+   "home": {
+    "name": "Vinn. 01110101",
+    "teamId": null
+   },
+   "away": {
+    "name": "Habo Wolley",
+    "teamId": 82397464
+   },
+   "division": "Placering 1-8",
+   "round": "Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 79799199,
+   "opponent": "Vinn. 01110101",
    "us": "away"
   }
  ],
@@ -5272,9 +5303,9 @@
    "round": "Semifinal",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -5517,8 +5548,8 @@
    "result": {
     "finished": true,
     "live": false,
-    "home": 0,
-    "away": 2
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel A",
    "categoryId": 74411948
@@ -5596,10 +5627,10 @@
    "round": "5-6",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411945
@@ -5805,8 +5836,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Förl. 01112201",
-    "teamId": null
+    "name": "Örkelljunga VK",
+    "teamId": 82916270
    },
    "division": "Placering 1-8",
    "round": "Bronsmatch",
@@ -6075,8 +6106,8 @@
     "teamId": 81353324
    },
    "away": {
-    "name": "Hylte Halmstad VBK White",
-    "teamId": 88416292
+    "name": "Sollentuna VK Dignitas",
+    "teamId": 82055655
    },
    "division": "PLacering 5-8",
    "round": "7-8",
@@ -6615,8 +6646,8 @@
     "teamId": 82055669
    },
    "away": {
-    "name": "Sollentuna VK Dignitas",
-    "teamId": 82055655
+    "name": "Hylte Halmstad VBK White",
+    "teamId": 88416292
    },
    "division": "PLacering 5-8",
    "round": "5-6",
@@ -6750,8 +6781,8 @@
     "teamId": null
    },
    "away": {
-    "name": "Vinn. 01112201",
-    "teamId": null
+    "name": "Habo Wolley",
+    "teamId": 82397464
    },
    "division": "Placering 1-8",
    "round": "Final",
