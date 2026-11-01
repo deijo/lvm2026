@@ -1,6 +1,6 @@
 {
- "changed": 1793535671858,
- "checked": 1793535671858,
+ "changed": 1793535856698,
+ "checked": 1793535856698,
  "teams": [
   {
    "key": "t82397474",
@@ -5849,7 +5849,7 @@
    "result": {
     "finished": false,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
@@ -6257,7 +6257,14 @@
    },
    "division": "Placering 7-10",
    "round": "9-10",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506041,
+     "name": "Falkenbergs Volleybollklubb",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
