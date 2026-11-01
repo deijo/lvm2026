@@ -1,6 +1,6 @@
 {
- "changed": 1793535856698,
- "checked": 1793535856698,
+ "changed": 1793536040831,
+ "checked": 1793536040831,
  "teams": [
   {
    "key": "t82397474",
@@ -5847,7 +5847,7 @@
    "round": "9-10",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 2,
     "away": 0
