@@ -1,6 +1,6 @@
 {
- "changed": 1793529839645,
- "checked": 1793529839645,
+ "changed": 1793530208722,
+ "checked": 1793530208722,
  "teams": [
   {
    "key": "t82397474",
@@ -5168,10 +5168,10 @@
    "round": "13-16",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel B",
    "categoryId": 79799199
@@ -5465,10 +5465,10 @@
    "round": "13-14",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 74411947
@@ -6241,8 +6241,8 @@
     "teamId": 88045203
    },
    "away": {
-    "name": "Förl. 01111701",
-    "teamId": null
+    "name": "Malmö VK",
+    "teamId": 84425215
    },
    "division": "Placering 13-16",
    "round": "15-16",
@@ -6349,8 +6349,8 @@
     "teamId": 87318978
    },
    "away": {
-    "name": "Vinn. 01111701",
-    "teamId": null
+    "name": "Lunds VK 2",
+    "teamId": 88180374
    },
    "division": "Placering 13-16",
    "round": "13-14",
