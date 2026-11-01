@@ -1,6 +1,6 @@
 {
- "changed": 1793533123837,
- "checked": 1793533123837,
+ "changed": 1793534580559,
+ "checked": 1793534580559,
  "teams": [
   {
    "key": "t82397474",
@@ -3262,6 +3262,37 @@
   },
   {
    "kind": "match",
+   "team": "t82397459",
+   "id": 88420365,
+   "nr": "01111305",
+   "start": 1793543400000,
+   "end": 1793547000000,
+   "hall": "Fäladshallen B",
+   "court": "1",
+   "home": {
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898615
+   },
+   "away": {
+    "name": "Habo Wolley",
+    "teamId": 82397459
+   },
+   "division": "Slutspel A",
+   "round": "Final",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411949,
+   "opponent": "Kaunas SM \"Startas\"",
+   "us": "away"
+  },
+  {
+   "kind": "match",
    "team": "t82397484",
    "id": 88944392,
    "nr": "01112803",
@@ -5751,12 +5782,12 @@
    "hall": "Fäladshallen B",
    "court": "1",
    "home": {
-    "name": "5:an i Grupp A",
-    "teamId": null
+    "name": "Hästhagen IF U20P",
+    "teamId": 87813209
    },
    "away": {
-    "name": "6:an i Grupp A",
-    "teamId": null
+    "name": "Malmö VK U20",
+    "teamId": 87818110
    },
    "division": "Slutspel B",
    "round": "5-6",
@@ -6032,10 +6063,10 @@
    "round": "11-12",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411948
@@ -6291,12 +6322,12 @@
    "hall": "Fäladshallen B",
    "court": "1",
    "home": {
-    "name": "3:an i Grupp A",
-    "teamId": null
+    "name": "Lunds VK",
+    "teamId": 80604870
    },
    "away": {
-    "name": "4:an i Grupp A",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779211
    },
    "division": "Slutspel B",
    "round": "3-4",
@@ -6534,12 +6565,12 @@
    "hall": "Fäladshallen B",
    "court": "1",
    "home": {
-    "name": "1:an i Grupp A",
-    "teamId": null
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898615
    },
    "away": {
-    "name": "2:an i Grupp A",
-    "teamId": null
+    "name": "Habo Wolley",
+    "teamId": 82397459
    },
    "division": "Slutspel A",
    "round": "Final",
