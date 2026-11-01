@@ -1,6 +1,6 @@
 {
- "changed": 1793527625579,
- "checked": 1793527625579,
+ "changed": 1793528355519,
+ "checked": 1793528355519,
  "teams": [
   {
    "key": "t82397474",
@@ -3003,10 +3003,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Gruppspel",
    "categoryId": 74411949,
@@ -3064,10 +3064,10 @@
    "round": "Semifinal",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411946,
@@ -3138,6 +3138,37 @@
   },
   {
    "kind": "match",
+   "team": "t82397469",
+   "id": 88949083,
+   "nr": "01110602",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "ISLK International School",
+   "court": "2",
+   "home": {
+    "name": "Sollentuna VK Top Fuel",
+    "teamId": 82055639
+   },
+   "away": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397469
+   },
+   "division": "Placering 1-8",
+   "round": "Bronsmatch",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411946,
+   "opponent": "Sollentuna VK Top Fuel",
+   "us": "away"
+  },
+  {
+   "kind": "match",
    "team": "t82397479",
    "id": 88944403,
    "nr": "01112802",
@@ -3181,8 +3212,8 @@
     "teamId": 82397474
    },
    "away": {
-    "name": "Vinn. 01110701",
-    "teamId": null
+    "name": "Svedala Volley",
+    "teamId": 82077470
    },
    "division": "Placering 5-8",
    "round": "5-6",
@@ -3195,7 +3226,7 @@
    },
    "stage": "Slutspel A",
    "categoryId": 74411946,
-   "opponent": "Vinn. 01110701",
+   "opponent": "Svedala Volley",
    "us": "home"
   },
   {
@@ -5268,9 +5299,9 @@
    "round": "9-12",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
@@ -5295,10 +5326,10 @@
    "round": "Semifinal",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411946
@@ -5322,10 +5353,10 @@
    "round": "5-8",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411946
@@ -5882,8 +5913,8 @@
     "teamId": 82055644
    },
    "away": {
-    "name": "Förl. 01110501",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779203
    },
    "division": "Placering 9-15",
    "round": "11-12",
@@ -5909,8 +5940,8 @@
     "teamId": 82055639
    },
    "away": {
-    "name": "Förl. 01110601",
-    "teamId": null
+    "name": "Habo Wolley Red",
+    "teamId": 82397469
    },
    "division": "Placering 1-8",
    "round": "Bronsmatch",
@@ -5936,8 +5967,8 @@
     "teamId": 87528569
    },
    "away": {
-    "name": "Förl. 01110701",
-    "teamId": null
+    "name": "Lunds VK Red",
+    "teamId": 80604878
    },
    "division": "Placering 5-8",
    "round": "7-8",
@@ -6314,8 +6345,8 @@
     "teamId": 82055623
    },
    "away": {
-    "name": "Vinn. 01110501",
-    "teamId": null
+    "name": "Sollentuna VK Challengers JPG",
+    "teamId": 82055629
    },
    "division": "Placering 9-15",
    "round": "9-10",
@@ -6341,8 +6372,8 @@
     "teamId": 86898622
    },
    "away": {
-    "name": "Vinn. 01110601",
-    "teamId": null
+    "name": "Engelholms VS",
+    "teamId": 88208895
    },
    "division": "Placering 1-8",
    "round": "Final",
@@ -6368,8 +6399,8 @@
     "teamId": 82397474
    },
    "away": {
-    "name": "Vinn. 01110701",
-    "teamId": null
+    "name": "Svedala Volley",
+    "teamId": 82077470
    },
    "division": "Placering 5-8",
    "round": "5-6",
