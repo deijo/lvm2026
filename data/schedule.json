@@ -1,6 +1,6 @@
 {
- "changed": 1793525611357,
- "checked": 1793525611357,
+ "changed": 1793525795752,
+ "checked": 1793525795752,
  "teams": [
   {
    "key": "t82397474",
@@ -2927,9 +2927,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -3165,6 +3165,37 @@
    "stage": "Slutspel A",
    "categoryId": 74411948,
    "opponent": "Förl. 01112801",
+   "us": "home"
+  },
+  {
+   "kind": "match",
+   "team": "t82397474",
+   "id": 88949122,
+   "nr": "01110703",
+   "start": 1793542500000,
+   "end": 1793546100000,
+   "hall": "ISLK International School",
+   "court": "3",
+   "home": {
+    "name": "Habo Wolley White",
+    "teamId": 82397474
+   },
+   "away": {
+    "name": "Vinn. 01110701",
+    "teamId": null
+   },
+   "division": "Placering 5-8",
+   "round": "5-6",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411946,
+   "opponent": "Vinn. 01110701",
    "us": "home"
   },
   {
@@ -4745,9 +4776,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -5287,9 +5318,9 @@
    "round": "",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
@@ -5870,8 +5901,8 @@
    "hall": "ISLK International School",
    "court": "3",
    "home": {
-    "name": "Förl. 01110700",
-    "teamId": null
+    "name": "Hylte Halmstad VBK",
+    "teamId": 87528569
    },
    "away": {
     "name": "Förl. 01110701",
@@ -6302,8 +6333,8 @@
    "hall": "ISLK International School",
    "court": "3",
    "home": {
-    "name": "Vinn. 01110700",
-    "teamId": null
+    "name": "Habo Wolley White",
+    "teamId": 82397474
    },
    "away": {
     "name": "Vinn. 01110701",
