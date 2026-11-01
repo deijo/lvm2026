@@ -1,6 +1,6 @@
 {
- "changed": 1793524511202,
- "checked": 1793524511202,
+ "changed": 1793524877626,
+ "checked": 1793524877626,
  "teams": [
   {
    "key": "t82397474",
@@ -2965,9 +2965,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -3135,6 +3135,37 @@
    "categoryId": 74411947,
    "opponent": "Sollentuna VK SVK PU18:1",
    "us": "away"
+  },
+  {
+   "kind": "match",
+   "team": "t82397479",
+   "id": 88944403,
+   "nr": "01112802",
+   "start": 1793538000000,
+   "end": 1793541600000,
+   "hall": "Tunaskolan",
+   "court": "2",
+   "home": {
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
+   },
+   "away": {
+    "name": "Förl. 01112801",
+    "teamId": null
+   },
+   "division": "Placering 1-12",
+   "round": "Bronsmatch",
+   "referees": [],
+   "result": {
+    "finished": false,
+    "live": false,
+    "home": 0,
+    "away": 0
+   },
+   "stage": "Slutspel A",
+   "categoryId": 74411948,
+   "opponent": "Förl. 01112801",
+   "us": "home"
   },
   {
    "kind": "match",
@@ -4748,10 +4779,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "stage": "Slutspel A",
    "categoryId": 74411948
@@ -4782,9 +4813,9 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -4816,10 +4847,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
     "home": 0,
-    "away": 0
+    "away": 2
    },
    "stage": "Slutspel B",
    "categoryId": 74411950
@@ -4850,10 +4881,10 @@
     }
    ],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "stage": "Slutspel A",
    "categoryId": 74411948
@@ -5866,8 +5897,8 @@
    "hall": "Tunaskolan",
    "court": "1",
    "home": {
-    "name": "Förl. 01110300",
-    "teamId": null
+    "name": "Grün-Weiß Eimsbüttel",
+    "teamId": 82779207
    },
    "away": {
     "name": "Förl. 01110301",
@@ -5893,8 +5924,8 @@
    "hall": "Tunaskolan",
    "court": "2",
    "home": {
-    "name": "Förl. 01112800",
-    "teamId": null
+    "name": "Habo Wolley Red",
+    "teamId": 82397479
    },
    "away": {
     "name": "Förl. 01112801",
@@ -5947,8 +5978,8 @@
    "hall": "Tunaskolan",
    "court": "4",
    "home": {
-    "name": "Förl. 01113000",
-    "teamId": null
+    "name": "Lunds VK DJ1",
+    "teamId": 81353324
    },
    "away": {
     "name": "Förl. 01113001",
@@ -6406,8 +6437,8 @@
    "hall": "Tunaskolan",
    "court": "1",
    "home": {
-    "name": "Vinn. 01110300",
-    "teamId": null
+    "name": "Eneryda Volley",
+    "teamId": 88077924
    },
    "away": {
     "name": "Vinn. 01110301",
@@ -6433,8 +6464,8 @@
    "hall": "Tunaskolan",
    "court": "2",
    "home": {
-    "name": "Vinn. 01112800",
-    "teamId": null
+    "name": "Kaunas SM \"Startas\"",
+    "teamId": 86898630
    },
    "away": {
     "name": "Vinn. 01112801",
@@ -6487,8 +6518,8 @@
    "hall": "Tunaskolan",
    "court": "4",
    "home": {
-    "name": "Vinn. 01113000",
-    "teamId": null
+    "name": "Sollentuna VK Steelwrist",
+    "teamId": 82055669
    },
    "away": {
     "name": "Vinn. 01113001",
