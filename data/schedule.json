@@ -1,6 +1,6 @@
 {
- "changed": 1793547923218,
- "checked": 1793551587764,
+ "changed": 1793553044792,
+ "checked": 1793553044792,
  "teams": [
   {
    "key": "t82397474",
@@ -3419,9 +3419,9 @@
    "round": "Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
@@ -6889,9 +6889,9 @@
    "round": "Final",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel A",
