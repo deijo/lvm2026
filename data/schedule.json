@@ -1,6 +1,6 @@
 {
- "changed": 1793537498279,
- "checked": 1793537498279,
+ "changed": 1793537682990,
+ "checked": 1793537682990,
  "teams": [
   {
    "key": "t82397474",
@@ -3124,7 +3124,14 @@
    },
    "division": "Placering 1-8",
    "round": "Bronsmatch",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88505989,
+     "name": "Engelholms VS 1",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -5793,9 +5800,9 @@
    "round": "5-6",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
@@ -5933,7 +5940,14 @@
    },
    "division": "Placering 9-14",
    "round": "11-12",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88506667,
+     "name": "Lunds VK Red",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -5960,7 +5974,14 @@
    },
    "division": "Placering 1-8",
    "round": "Bronsmatch",
-   "referees": [],
+   "referees": [
+    {
+     "id": 88505989,
+     "name": "Engelholms VS 1",
+     "role": "Huvuddomare",
+     "ours": null
+    }
+   ],
    "result": {
     "finished": false,
     "live": false,
@@ -5989,9 +6010,9 @@
    "round": "11-12",
    "referees": [],
    "result": {
-    "finished": false,
+    "finished": true,
     "live": false,
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "stage": "Slutspel B",
