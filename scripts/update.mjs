@@ -4,14 +4,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fetchAll } from "./schedule.mjs";
 
-// Tillfälligt stopp: en pågående körning av den gamla, långlivade versionen
-// hämtar den här filen och avslutas här. Tas bort när den körningen har stoppats.
-if (process.env.GITHUB_ACTIONS && !process.env.LVM_SINGLE_RUN) {
-  console.log("Uppdateringen är avstängd, avslutar den långlivade körningen.");
-  process.kill(process.ppid, "SIGKILL");
-  process.exit(1);
-}
-
 const FILE = new URL("../data/schedule.json", import.meta.url);
 const HEARTBEAT_MS = 30 * 60 * 1000;
 
