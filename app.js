@@ -3,8 +3,6 @@
 // API ungefär var 10:e minut (se scripts/ och .github/workflows/).
 
 const TZ = "Europe/Stockholm";
-const RELOAD_MINUTES = 2;
-const STALE_MINUTES = 45;
 
 const fmt = (opts) => new Intl.DateTimeFormat("sv-SE", { timeZone: TZ, ...opts });
 const fTime = fmt({ hour: "2-digit", minute: "2-digit" });
@@ -265,22 +263,10 @@ function render() {
   document.getElementById("sub").textContent =
     `Lund Volley Masters, 30 oktober – 1 november 2026. ${nTeams} lag i ${nCats} klasser.`;
 
-  // Kontrolleras normalt var tredje minut; stämpeln sparas minst var 30:e minut.
+  // Turneringen är slut och hämtningen avstängd (se readme.md).
   const status = document.getElementById("status");
-  const when = (t) => {
-    const sameDay = fDayKey.format(t) === fDayKey.format(Date.now());
-    return sameDay ? fTime.format(t) : `${fWeekday.format(t)} ${fTime.format(t)}`;
-  };
-  const checked = data.checked || data.changed || 0;
-  const stale = !checked || Date.now() - checked > STALE_MINUTES * 60 * 1000;
-  if (state.error) {
-    status.textContent = `Kunde inte hämta senaste versionen. Visar schemat som senast bekräftades ${checked ? when(checked) : "okänt"}.`;
-  } else if (stale) {
-    status.textContent = `Schemat har inte bekräftats mot turneringen sedan ${checked ? when(checked) : "okänt"}. Dubbelkolla tider på turneringens sida.`;
-  } else {
-    status.textContent = `Kontrolleras mot turneringen var tredje minut. Senast bekräftat ${when(checked)}. Senaste ändring ${data.changed ? when(data.changed) : "okänt"}.`;
-  }
-  status.classList.toggle("warn", state.error || stale);
+  status.textContent = "Turneringen är avslutad, schemat uppdateras inte längre.";
+  status.classList.remove("warn");
 }
 
 async function load() {
@@ -313,11 +299,5 @@ document.querySelector(".filters").addEventListener("click", (ev) => {
   render();
 });
 document.getElementById("refresh").addEventListener("click", load);
-setInterval(() => {
-  if (document.visibilityState === "visible") load();
-}, RELOAD_MINUTES * 60 * 1000);
-document.addEventListener("visibilitychange", () => {
-  if (document.visibilityState === "visible" && Date.now() - state.loadedAt > 60 * 1000) load();
-});
 
 load();
