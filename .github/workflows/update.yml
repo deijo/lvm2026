@@ -1,29 +1,17 @@
 name: Uppdatera schemat
 
-# Varje körning håller igång i knappt sex timmar och kontrollerar turneringens
-# schema var tredje minut. När den är klar startar den själv nästa körning
-# (jobbet "starta-nasta"), så kedjan beror inte på GitHubs schemaläggning,
-# som visat sig utebli helt. Schemaläggningen finns kvar som extra reserv.
-# Bara en körning åt gången; nästa väntar i kö.
+# Avstängd efter Lund Volley Masters 2026: körs bara när någon trycker
+# "Run workflow" under Actions, och gör då en enda kontroll.
+#
+# Under turneringen höll varje körning igång i knappt sex timmar, kontrollerade
+# schemat var tredje minut och startade sedan själv nästa körning. Den versionen
+# finns i git-historiken (commit 2450287) om den behövs igen.
 
 on:
-  schedule:
-    - cron: "13,43 * * * *"
-  workflow_dispatch:
-    inputs:
-      minutes:
-        description: "Hur länge körningen ska hålla igång (minuter)"
-        required: false
-        default: "340"
-  push:
-    branches: [main]
-    paths:
-      - "scripts/**"
-      - ".github/workflows/update.yml"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: update-schedule
@@ -32,54 +20,21 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 355
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Kontrollera schemat var tredje minut
+      - name: Kontrollera schemat en gång
         env:
-          MINUTES: ${{ inputs.minutes || '340' }}
+          LVM_SINGLE_RUN: "1"
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          end=$((SECONDS + MINUTES * 60))
-          while true; do
-            # Hämta eventuella kodändringar så att senaste versionen av skripten används.
-            git pull --rebase --quiet origin main || git rebase --abort || true
-            if node scripts/update.mjs; then
-              if ! git diff --quiet -- data/schedule.json; then
-                git add data/schedule.json
-                git commit --quiet -m "Uppdatera schemat"
-                for i in 1 2 3; do
-                  git push --quiet origin HEAD:main && break
-                  sleep 5
-                  git pull --rebase --quiet origin main || true
-                done
-              fi
-            else
-              echo "::warning::Hämtningen misslyckades, försöker igen om tre minuter."
-            fi
-            if [ "$SECONDS" -ge "$end" ]; then break; fi
-            sleep 180
-          done
-
-  # Startar nästa körning när den här är klar, även om den misslyckades.
-  # (Körningar som startas med workflow_dispatch via GITHUB_TOKEN tillåts av GitHub.)
-  starta-nasta:
-    needs: update
-    if: always()
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - name: Starta nästa körning
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          for i in 1 2 3; do
-            gh workflow run update.yml --repo "$GITHUB_REPOSITORY" --ref main && exit 0
-            sleep 20
-          done
-          echo "::error::Kunde inte starta nästa körning."
-          exit 1
+          node scripts/update.mjs
+          if ! git diff --quiet -- data/schedule.json; then
+            git add data/schedule.json
+            git commit --quiet -m "Uppdatera schemat"
+            git push --quiet origin HEAD:main
+          fi
